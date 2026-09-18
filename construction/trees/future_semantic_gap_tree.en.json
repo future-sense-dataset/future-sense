@@ -1,0 +1,1513 @@
+{
+  "id": "root",
+  "name": "New Word Meanings and Semantic Gaps in the Next 1–10 Years",
+  "kind": "General Graph",
+  "horizon": "2026–2036",
+  "gap": "When new technologies, new institutions and new lifestyles emerge, existing words are forced to take on new referential, evaluative and relational functions.",
+  "lexical": [
+    "new meaning of old words",
+    "metaphorical extension",
+    "metonymic extension",
+    "popularization of technical terms",
+    "terminologization of common words"
+  ],
+  "note": "Level-1 domains are expanded in parallel; level-2 domains refer to positions where semantic gaps are more likely to emerge in the future; level-3 nodes provide observable directions of new meaning emergence.",
+  "children": [
+    {
+      "id": "ai-agents",
+      "name": "AI Agents and Collaborative Cognition",
+      "kind": "Parallel Domain",
+      "horizon": "High-intensity diffusion in 1–5 years",
+      "color": "#0f766e",
+      "gap": "As software shifts from 'tools' to actors capable of planning, negotiation and execution, the boundaries of existing words such as 'assistant, agent, colleague, responsibility' need to be redefined.",
+      "lexical": [
+        "agent",
+        "colleague",
+        "entrustment",
+        "takeover",
+        "co-signing"
+      ],
+      "children": [
+        {
+          "id": "multi-agent",
+          "name": "Multi-Agent Workflow",
+          "kind": "Subdomain",
+          "horizon": "1–3 years",
+          "gap": "When multiple AI agents collaborate to complete tasks, there is a lack of common words to describe 'division of labor, handover and dispute resolution between machines'.",
+          "lexical": [
+            "agent formation",
+            "task relay",
+            "digital work section"
+          ],
+          "children": [
+            {
+              "id": "agent-delegation",
+              "name": "Delegation Boundary",
+              "kind": "Semantic Gap",
+              "horizon": "1-3 years",
+              "gap": "Users temporarily hand over decision-making authority to the system, but full responsibility transfer has not been completed.",
+              "lexical": [
+                "delegation: extends from interpersonal authorization to human-machine authorization",
+                "takeover: extends from temporary control to process autonomy",
+                "exceeding authority: extends from organizational behavior to AI behavior"
+              ]
+            },
+            {
+              "id": "agent-handoff",
+              "name": "Machine Handoff",
+              "kind": "Semantic Gap",
+              "horizon": "1-3 years",
+              "gap": "Different models or agents take over processing the same task in sequence, requiring the handover of context, permissions and objectives to be marked in the language.",
+              "lexical": [
+                "handoff: extends from post transfer to context transfer",
+                "relay: extends from a sports metaphor to agent chain",
+                "breakpoint: extends from program state to collaborative memory"
+              ]
+            },
+            {
+              "id": "agent-negotiation",
+              "name": "Agent Negotiation",
+              "kind": "Semantic Gap",
+              "horizon": "2-5 years",
+              "gap": "AI systems coordinate with each other for resources, objectives or strategies; the existing definition of 'negotiation' carries the connotation of human intent.",
+              "lexical": [
+                "negotiation: extends from interpersonal negotiation to algorithmic coordination",
+                "concession: extends from a psychological action to target weight adjustment",
+                "consensus: extends from alignment of opinions to convergence of model outputs"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "domain-models",
+          "name": "Industry-Specific Models",
+          "kind": "Subfield",
+          "horizon": "1-5 years",
+          "gap": "After general-purpose models are applied to professional scenarios such as healthcare, law, finance and education, they need to embody 'interpretability, compliance and trustworthiness in professional contexts'.",
+          "lexical": [
+            "domain language sense",
+            "model credential",
+            "compliance corpus"
+          ],
+          "children": [
+            {
+              "id": "domain-taste",
+              "name": "Domain Language Sense",
+              "kind": "Semantic Gap",
+              "horizon": "1-4 years",
+              "gap": "The model's ability to understand the implicit rules of the professional community goes beyond mere lexical matching.",
+              "lexical": [
+                "language sense: extends from human linguistic intuition to model scenario adaptation",
+                "industry expertise: extends from empirical judgment to domain model capability",
+                "insider jargon: extends from group colloquialism to training data feature"
+              ]
+            },
+            {
+              "id": "model-credential",
+              "name": "Model Credential",
+              "kind": "Semantic Gap",
+              "horizon": "2-6 years",
+              "gap": "When models are used for professional judgment, there is a lack of representations equivalent to licenses, qualifications, and verification levels.",
+              "lexical": [
+                "qualification: extends from human professional qualification to model applicable scope",
+                "practice: extends from professional conduct to model service boundary",
+                "endorsement: extends from institutional credit to model verification"
+              ]
+            },
+            {
+              "id": "regulated-corpus",
+              "name": "Regulated Corpus",
+              "kind": "Semantic Gap",
+              "horizon": "1-5 years",
+              "gap": "Corpus is no longer just a data source, but also carries copyright, privacy, industry specification and regional restrictions.",
+              "lexical": [
+                "word: extends from language material to compliant asset",
+                "clean: extends from hygiene evaluation to data authorization status",
+                "feeding: extends from feeding metaphor to training input"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-native-dev",
+          "name": "AI-Native Development",
+          "kind": "Subdomain",
+          "horizon": "1-6 years",
+          "gap": "Software generation shifts from writing code to expressing intent, reviewing results and governing processes, and the old semantics of 'developer, code, prototype' are rewritten.",
+          "lexical": [
+            "Intent is Code",
+            "Squad Development",
+            "Generation Debt"
+          ],
+          "children": [
+            {
+              "id": "intent-code",
+              "name": "Intent is Code",
+              "kind": "Semantic Gap",
+              "horizon": "1-4 years",
+              "gap": "Natural language requirements can be directly converted into runnable software, and the boundary of code shifts up to the intent layer.",
+              "lexical": [
+                "code: extends from program text to executable intent",
+                "write: extends from manual input to prompt generation",
+                "prototype: extends from rough model to instantly usable system"
+              ]
+            },
+            {
+              "id": "tiny-teams",
+              "name": "Squad-style development",
+              "kind": "Semantic gap",
+              "horizon": "2-6 years",
+              "gap": "A small number of people plus a set of AI tools can complete work that used to require large teams; new terms are needed to describe team size and collaborative identities.",
+              "lexical": [
+                "team: extends from human group to human-AI combination",
+                "buddy: extends from social partner to task agent",
+                "workstation: extends from physical seat to digital function role"
+              ]
+            },
+            {
+              "id": "generation-debt",
+              "name": "Generation debt",
+              "kind": "Semantic gap",
+              "horizon": "1-5 years",
+              "gap": "Systems rapidly generated by AI may accumulate invisible maintenance, verification and liability costs.",
+              "lexical": [
+                "debt: extends from financial burden to follow-up costs of generative systems",
+                "rework: extends from manual correction to model output verification",
+                "unfinished project: extends from stalled project to unmaintained AI output"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "name": "Physical AI and the robotic world",
+      "kind": "Parallel domain",
+      "horizon": "Gradual rollout over 2-10 years",
+      "color": "#2563eb",
+      "gap": "Intelligence is entering robotic bodies, roads, warehouses and home spaces; language needs to distinguish between 'movable tools' and 'collaborative actors'.",
+      "lexical": [
+        "body",
+        "workmate",
+        "route etiquette",
+        "scenario training",
+        "machine tactile sense"
+      ],
+      "children": [
+        {
+          "id": "embodied-models",
+          "name": "Embodied Models and General Robots",
+          "kind": "Subfield",
+          "horizon": "2-8 years",
+          "gap": "After models are equipped with sensors and actuators, understanding is no longer limited to language, and the traditional concepts of 'body, experience, and tactile feel' will be technologized.",
+          "lexical": [
+            "Machine Body",
+            "World Model",
+            "Tactile Semantics"
+          ],
+          "children": [
+            {
+              "id": "machine-body",
+              "name": "Machine Body",
+              "kind": "Semantic Gap",
+              "horizon": "2-7 years",
+              "gap": "A robot is not just a shell, but a unified carrier for perception, action, and learning.",
+              "lexical": [
+                "body: extends from biological organism to actionable platform",
+                "dexterity: extends from human movement ability to robot flexibility",
+                "somatosensory: extends from human sensation to machine sensor feedback"
+              ]
+            },
+            {
+              "id": "robot-training-ground",
+              "name": "Scenario Training",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "Robots need to accumulate experience in simulated and real scenarios, and the training target extends from models to movements.",
+              "lexical": [
+                "training ground: extends from sports space to simulation environment",
+                "practice: extends from human skill acquisition process to robot trial and error",
+                "experience: extends from life experience to trajectory data"
+              ]
+            },
+            {
+              "id": "tactile-meaning",
+              "name": "tactile semantics",
+              "kind": "semantic gap",
+              "horizon": "3-10 years",
+              "gap": "Actions such as grasping, pressing, kneading, and avoidance carry physical meaning, while existing semantic analysis focuses heavily on text and vision.",
+              "lexical": [
+                "hand feel: extends from human tactile evaluation to machine operation parameters",
+                "heaviness/lightness: extends from force description to security policy",
+                "handling: extends from social propriety to robot grasping control"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "drones-low-altitude",
+          "name": "unmanned systems and low-altitude economy",
+          "kind": "subfield",
+          "horizon": "1-8 years",
+          "gap": "As unmanned vehicles, drones and autonomous ships enter public spaces, they will create new gaps in traffic etiquette, liability attribution and spatial naming.",
+          "lexical": [
+            "air route",
+            "drone fleet courtesy",
+            "unmanned service duty"
+          ],
+          "children": [
+            {
+              "id": "drone-corridor",
+              "name": "low-altitude corridor",
+              "kind": "semantic gap",
+              "horizon": "1-6 years",
+              "gap": "Urban airspace is transformed from an invisible space into a plannable traffic layer.",
+              "lexical": [
+                "road: extends from ground passage to aerial route",
+                "congestion: extends from road status to low-altitude traffic flow",
+                "station: extends from ground facility to takeoff and landing node"
+              ]
+            },
+            {
+              "id": "machine-etiquette",
+              "name": "Machine Etiquette",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "When automated systems interact with pedestrians, riders and vehicles, stable yielding, prompting and apology expressions are required.",
+              "lexical": [
+                "comity: extends from human moral behavior to automated decision-making",
+                "signal: extends from body movements to light/sound signals",
+                "apology: extends from emotional expression to service remedy protocols"
+              ]
+            },
+            {
+              "id": "autonomous-duty",
+              "name": "Autonomous Duty Performance",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "After tasks such as inspection, delivery and cleaning are undertaken by unmanned systems, job role terms need to be expanded.",
+              "lexical": [
+                "duty performance: extends from on-duty personnel to automated task execution",
+                "go on duty: extends from personnel arriving at post to machine going online",
+                "on duty: extends from shift scheduling system to continuous system operation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "flexible-factory",
+          "name": "Flexible Manufacturing and Smart Factory",
+          "kind": "Subfield",
+          "horizon": "1-7 years",
+          "gap": "Manufacturing has shifted from fixed production lines to real-time reconfigurable smart networks, and old terms such as 'master craftsman', 'workstation' and 'production line' have acquired new meanings.",
+          "lexical": [
+            "digital master craftsman",
+            "lights-out collaboration",
+            "self-adjusting production line"
+          ],
+          "children": [
+            {
+              "id": "digital-master",
+              "name": "Digital Master",
+              "kind": "Semantic Gap",
+              "horizon": "1-5 years",
+              "gap": "After expert experience is modeled, 'master' no longer refers only to humans, but also to systems that can impart production processes.",
+              "lexical": [
+                "master: extends from skilled worker to process model",
+                "mentoring: extends from master-apprentice system to model-assisted training",
+                "know-how: extends from orally passed experience to parameterized knowledge"
+              ]
+            },
+            {
+              "id": "dark-factory",
+              "name": "Lights-Out Collaboration",
+              "kind": "Semantic Gap",
+              "horizon": "2-7 years",
+              "gap": "In unmanned factories, the 'work site' is no longer centered on human vision and work schedules.",
+              "lexical": [
+                "lights-out: extends from unlit state to unmanned production",
+                "site: extends from human presence to sensor presence",
+                "inspection: extends from manual checking to automatic sensing"
+              ]
+            },
+            {
+              "id": "self-tuning-line",
+              "name": "Self-Tuning Production Line",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "Production lines automatically rearrange based on orders, energy consumption and equipment status, and there is a lack of terms describing dynamic manufacturing syntax.",
+              "lexical": [
+                "production line: extends from fixed process to reconfigurable network",
+                "production scheduling: extends from planning table to real-time algorithm",
+                "line changeover: extends from manual modification to software reconfiguration"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edge-interface",
+      "name": "Edge Computing and Personal Smart Interface",
+      "kind": "Parallel Domain",
+      "horizon": "1-8 years of rapid experimentation",
+      "color": "#7c3aed",
+      "gap": "Computing shifts from the cloud to areas close to the human body and the surrounding environment. Interfaces are no longer limited to a single screen, and the scope of relevant old terms needs to be extended to cover headphones, smart glasses, vehicle cabins and rooms.",
+      "lexical": [
+        "Local Brain",
+        "Second Sense",
+        "Spatial Desktop",
+        "Ambient Interface"
+      ],
+      "children": [
+        {
+          "id": "edge-ai",
+          "name": "On-Device AI",
+          "kind": "Sub-domain",
+          "horizon": "1-5 years",
+          "gap": "Intelligence runs locally on mobile phones, sensors and devices, creating new expression demands for privacy, low latency and offline capability.",
+          "lexical": [
+            "On-Device Brain",
+            "Offline Intelligence",
+            "Pocket Model"
+          ],
+          "children": [
+            {
+              "id": "local-brain",
+              "name": "Local Brain",
+              "kind": "Semantic Gap",
+              "horizon": "1-4 years",
+              "gap": "Devices are equipped with independently reasoning intelligence, no longer sending all data to the cloud for processing.",
+              "lexical": [
+                "brain: extends from biological organ to device reasoning core",
+                "local: extends from location attribute to privacy architecture",
+                "offline: extends from disconnected network state to autonomous capability"
+              ]
+            },
+            {
+              "id": "latency-persona",
+              "name": "Low Latency Persona",
+              "kind": "Semantic Gap",
+              "horizon": "2-5 years",
+              "gap": "If a voice assistant responds instantly, it will feel more like a present entity; speed alters social perception.",
+              "lexical": [
+                "presence: extends from physical co-location to sense of real-time response",
+                "temper: extends from personality trait to interaction style",
+                "sluggishness: extends from cognitive evaluation to system latency assessment"
+              ]
+            },
+            {
+              "id": "private-inference",
+              "name": "Private Inference",
+              "kind": "Semantic Gap",
+              "horizon": "1-5 years",
+              "gap": "When inference runs locally, data protection shifts from transmission security to process visibility.",
+              "lexical": [
+                "privacy: extends from content attribute to computing location attribute",
+                "no data leaving the device: extends from spatial expression to data governance commitment",
+                "visibility: extends from visual state to audit transparency"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wearables",
+          "name": "Wearables and Environmental Perception",
+          "kind": "Sub-domain",
+          "horizon": "1-8 years",
+          "gap": "AI is integrated into glasses, earphones, rings, clothing and rooms, requiring new micro lexical meanings to describe continuous perception, reminders and companionship.",
+          "lexical": [
+            "Second Sense",
+            "Ear-side Assistant",
+            "Environmental Memory"
+          ],
+          "children": [
+            {
+              "id": "second-sense",
+              "name": "Second Sense",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "Devices supplement human auditory, visual, positional and physiological perception.",
+              "lexical": [
+                "sense: extends from human body capability to external perception system",
+                "see: extends from visual behavior to algorithmic recognition",
+                "understand speech: extends from human comprehension to ambient sound analysis"
+              ]
+            },
+            {
+              "id": "ambient-memory",
+              "name": "Ambient Memory",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "Rooms, cabins or offices can remember human habits and historical interactions.",
+              "lexical": [
+                "memory: extends from psychological capability to spatial recording",
+                "familiar: extends from human experience to environmental personalization",
+                "forget: extends from cognitive loss to data deletion"
+              ]
+            },
+            {
+              "id": "micro-reminder",
+              "name": "Micro Reminder",
+              "kind": "Semantic Gap",
+              "horizon": "1-6 years",
+              "gap": "Continuously worn devices provide low-interruption prompts, which fall between notifications, suggestions and interventions.",
+              "lexical": [
+                "reminder: extends from explicit notification to tap-style intervention",
+                "disturb: extends from social evaluation to interaction burden",
+                "thoughtful: extends from emotional evaluation to timing accuracy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spatial-computing",
+          "name": "Spatial Computing",
+          "kind": "Sub-field",
+          "horizon": "2-10 years",
+          "gap": "Digital information is superimposed onto real space, and interface vocabulary migrates from flat windows to locations, objects and actions.",
+          "lexical": [
+            "Spatial Desktop",
+            "Mixed Annotation",
+            "Scene Layer"
+          ],
+          "children": [
+            {
+              "id": "spatial-desktop",
+              "name": "Spatial Desktop",
+              "kind": "Semantic Gap",
+              "horizon": "2-7 years",
+              "gap": "Files and applications are not confined within the screen, but are fixed around rooms, desktops or devices.",
+              "lexical": [
+                "desktop: extends from screen metaphor to real space arrangement",
+                "window: extends from 2D frame to spatial field of view",
+                "placement: extends from physical object operation to information layout"
+              ]
+            },
+            {
+              "id": "mixed-annotation",
+              "name": "Mixed Annotation",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "Instructions, warnings, historical records and collaboration traces are superimposed on real-world objects.",
+              "lexical": [
+                "annotation: extends from text side note to spatial marker",
+                "paste: extends from physical attachment to AR overlay",
+                "markup: extends from image-text processing to environmental information layer"
+              ]
+            },
+            {
+              "id": "place-memory",
+              "name": "Place Memory",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Places become data indexes, and human memory and spatial computing jointly organize experiences.",
+              "lexical": [
+                "place: extends from geographic location to information container",
+                "playback: extends from media playback to spatial event reproduction",
+                "presence: extends from physical arrival to immersive access"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio-health",
+      "name": "Life Health and Bioengineering",
+      "kind": "Parallel Field",
+      "horizon": "Steady deepening in 2-10 years",
+      "color": "#dc2626",
+      "gap": "Bodies, drugs, cells and crops are gradually modeled, designed and manufactured, and daily life vocabulary and engineering vocabulary will migrate to each other.",
+      "lexical": [
+        "molecular draft",
+        "body ledger",
+        "cell factory",
+        "calculable treatment"
+      ],
+      "children": [
+        {
+          "id": "ai-drug",
+          "name": "AI Pharmaceutical and Protein Design",
+          "kind": "Sub-field",
+          "horizon": "2-8 years",
+          "gap": "Drug discovery shifts from screening to a closed loop of generation and verification, and old terms such as 'candidate, design, draft' gain new meanings in life sciences.",
+          "lexical": [
+            "molecular draft",
+            "wet experiment closed loop",
+            "drug candidate"
+          ],
+          "children": [
+            {
+              "id": "molecular-draft",
+              "name": "Molecular Draft",
+              "kind": "Semantic Gap",
+              "horizon": "2-7 years",
+              "gap": "Model-generated molecular structures are similar to text drafts, which can be modified, scored and iterated.",
+              "lexical": [
+                "draft: extends from text preliminary draft to molecular scheme",
+                "generation: extends from content production to drug design",
+                "polishing: extends from language processing to structural optimization"
+              ]
+            },
+            {
+              "id": "wet-loop",
+              "name": "Wet Lab Closed Loop",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "Laboratory results are fed back to the model in real time, forming a cycle of computation and experimentation.",
+              "lexical": [
+                "closed loop: extends from control system to AI experiment workflow",
+                "wet: extends from material state to physical experiment",
+                "feedback: extends from evaluation information to model training signal"
+              ]
+            },
+            {
+              "id": "candidate-status",
+              "name": "Candidate Status",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "A large number of AI-generated schemes fall between ideas, samples and drugs, requiring more fine-grained status terms.",
+              "lexical": [
+                "candidate: extends from alternative object to algorithm-generated entity",
+                "hit: extends from hitting a target to drug activity discovery",
+                "elimination: extends from selection result to model screening elimination"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "personal-health",
+          "name": "Personalized Medicine and Digital Twin",
+          "kind": "Sub-field",
+          "horizon": "2-10 years",
+          "gap": "Individual physical conditions can be continuously monitored, predicted and simulated, and medical vocabulary extends from diagnosing current conditions to assessing future risks.",
+          "lexical": [
+            "Body Ledger",
+            "Predictive Disease Course",
+            "Treatment Trial Calculation"
+          ],
+          "children": [
+            {
+              "id": "body-ledger",
+              "name": "Body Ledger",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "Health data is long-term recorded, reconciled and authorized like a ledger.",
+              "lexical": [
+                "ledger: extends from financial record to health data history",
+                "reconciliation: extends from financial verification to multi-source health data calibration",
+                "balance: extends from remaining money to a metaphor for health reserve"
+              ]
+            },
+            {
+              "id": "predictive-course",
+              "name": "Predictive Disease Course",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Diseases are simulated as multiple possible paths, and diagnosis and treatment language needs to express the probabilistic future of the body.",
+              "lexical": [
+                "disease course: extends from already occurred process to predicted trajectory",
+                "rehearsal: extends from drill to treatment simulation",
+                "fork in the road: extends from road metaphor to disease condition branch"
+              ]
+            },
+            {
+              "id": "treatment-simulation",
+              "name": "Treatment Trial Calculation",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Treatment plans are first tested on digital twins, falling between recommendations and actual interventions.",
+              "lexical": [
+                "word: 试算 extends from financial calculation to medical simulation",
+                "word: 孪生 extends from blood relationship to body model",
+                "word: 方案 extends from planned text to runnable simulation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "synthetic-bio",
+          "name": "Synthetic Biology and Agricultural Biomanufacturing",
+          "kind": "Subfield",
+          "horizon": "3-10 years",
+          "gap": "Cells and crops are designed as production platforms, leading to bidirectional expansion of manufacturing and life-related vocabulary.",
+          "lexical": [
+            "Cell Factory",
+            "Biological Foundry",
+            "Programmable Crop"
+          ],
+          "children": [
+            {
+              "id": "cell-factory",
+              "name": "Cell Factory",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Cells perform the function of producing materials, pharmaceuticals or food ingredients.",
+              "lexical": [
+                "word: 工厂 extends from industrial site to cellular production system",
+                "word: 产线 extends from mechanical process to metabolic pathway",
+                "word: 产能 extends from equipment capacity to biosynthetic efficiency"
+              ]
+            },
+            {
+              "id": "bio-foundry",
+              "name": "Biological Foundry",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Biological systems can be designed, tested and iterated like materials and devices.",
+              "lexical": [
+                "foundry: extends from metal processing to biological system construction",
+                "module: extends from engineering components to genetic circuits",
+                "parameter tuning: extends from software optimization to biological expression regulation"
+              ]
+            },
+            {
+              "id": "programmable-crop",
+              "name": "Programmable Crop",
+              "kind": "Semantic Gap",
+              "horizon": "4-10 years",
+              "gap": "Crop traits can be designed according to climate, nutrition and supply chain demands.",
+              "lexical": [
+                "programming: extends from software writing to trait design",
+                "tolerance: extends from biological characteristics to climate adaptability",
+                "customization: extends from commodity production to agronomic design"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energy-climate",
+      "name": "Energy, Climate and Sustainable Systems",
+      "kind": "Parallel Domain",
+      "horizon": "1-10 years of policy and technology resonance",
+      "color": "#16a34a",
+      "gap": "Climate risk, energy dispatch and material circulation are integrated into daily management, and existing terms such as 'negative, green, resilience, passport' will take on new specialized meanings.",
+      "lexical": [
+        "virtual power plant",
+        "carbon awareness",
+        "material passport",
+        "heat risk language"
+      ],
+      "children": [
+        {
+          "id": "smart-grid",
+          "name": "AI Power Grid and Energy Storage",
+          "kind": "Subfield",
+          "horizon": "1-8 years",
+          "gap": "Electricity consumption extends from passive consumption to dispatchable resources, and households, factories and vehicles can all become grid nodes.",
+          "lexical": [
+            "Flexible Load",
+            "Virtual Power Plant",
+            "Carbon-Aware Scheduling"
+          ],
+          "children": [
+            {
+              "id": "flexible-load",
+              "name": "Flexible Load",
+              "kind": "Semantic Gap",
+              "horizon": "1-6 years",
+              "gap": "Electricity consumption behavior can be automatically adjusted based on price, carbon emissions and grid pressure.",
+              "lexical": [
+                "load: extends from electricity demand to tradable flexibility",
+                "flexibility: extends from physical property to dispatch capability",
+                "peak shaving: extends from engineering term to household behavior"
+              ]
+            },
+            {
+              "id": "virtual-power-plant",
+              "name": "Virtual Power Plant",
+              "kind": "Semantic Gap",
+              "horizon": "1-7 years",
+              "gap": "Decentralized batteries, vehicles and rooftop photovoltaics are aggregated into dispatchable capacity.",
+              "lexical": [
+                "power plant: extends from centralized facility to distributed collection",
+                "aggregation: extends from collection action to energy market role",
+                "grid connection: extends from accessing the network to participating in electricity trading"
+              ]
+            },
+            {
+              "id": "carbon-aware",
+              "name": "carbon-aware scheduling",
+              "kind": "semantic gap",
+              "horizon": "1-8 years",
+              "gap": "Computing, production and consumption adjust their time and location based on the carbon intensity of electricity.",
+              "lexical": [
+                "perception: extends from sensory ability to carbon signal response",
+                "clean period: extends from hygiene evaluation to low-carbon power window",
+                "moving: extends from residential address change to computing power migration"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circular-carbon",
+          "name": "carbon removal and circular materials",
+          "kind": "sub-field",
+          "horizon": "2-10 years",
+          "gap": "Waste, materials and carbon are no longer just emissions or garbage, but traceable, reusable and certifiable resources.",
+          "lexical": [
+            "negative emission",
+            "material passport",
+            "waste mine"
+          ],
+          "children": [
+            {
+              "id": "negative-emission",
+              "name": "negative emission",
+              "kind": "semantic gap",
+              "horizon": "2-10 years",
+              "gap": "The direction of emissions shifts from increase to removal, and the daily meaning of 'negative' carries climate value.",
+              "lexical": [
+                "negative: extends from being less than zero in quantity to climate compensation",
+                "removal: extends from taking objects away to carbon management",
+                "sequestration: extends from storing items to long-term carbon storage"
+              ]
+            },
+            {
+              "id": "material-passport",
+              "name": "Material Passport",
+              "kind": "Semantic Gap",
+              "horizon": "2-9 years",
+              "gap": "The source, composition, carbon footprint and recycling path of materials need to be recorded like identity information.",
+              "lexical": [
+                "passport: extends from cross-border identity document for people to material identity",
+                "footprint: extends from footprints to environmental impact chain",
+                "resume: extends from personal experience to material circulation history"
+              ]
+            },
+            {
+              "id": "waste-mine",
+              "name": "Waste Mine",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Urban waste has become exploitable resources, and waste-related terms start to be associated with resource recovery.",
+              "lexical": [
+                "mine: extends from natural mineral deposits to urban waste repositories",
+                "mining: extends from exploiting underground resources to recycling and utilization",
+                "garbage: extends from useless items to unsorted assets to be processed"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "climate-adaptation",
+          "name": "Climate Adaptation and Extreme Weather",
+          "kind": "Subfield",
+          "horizon": "1-10 years",
+          "gap": "High temperature, floods, migration and insurance will be incorporated into daily urban decision-making, requiring more granular risk-related vocabulary.",
+          "lexical": [
+            "Resilient City",
+            "Heat Risk Language",
+            "Migration Insurance"
+          ],
+          "children": [
+            {
+              "id": "resilient-city",
+              "name": "Resilient City",
+              "kind": "Semantic Gap",
+              "horizon": "1-10 years",
+              "gap": "Urban capacity shifts from construction scale to shock resistance and rapid recovery.",
+              "lexical": [
+                "resilience: extends from material property to urban governance capacity",
+                "recovery: extends from health status to infrastructure resilience",
+                "buffering: extends from physical shock absorption to social protection mechanism"
+              ]
+            },
+            {
+              "id": "heat-language",
+              "name": "Heat Risk Language",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "Extreme heat affects labor, health and urban management; heat is more than just a sensory experience of weather.",
+              "lexical": [
+                "heat: extends from somatosensory perception to public safety risk",
+                "exposure: extends from being revealed to climate risk situation",
+                "summer heat avoidance: extends from living habit to labor protection strategy"
+              ]
+            },
+            {
+              "id": "climate-migration-insurance",
+              "name": "Climate Migration Insurance",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Climate-induced relocation, property losses and regional risks require new security expression frameworks.",
+              "lexical": [
+                "migration: extends from voluntary mobility to climate adaptation behavior",
+                "insurance: extends from loss compensation to relocation support",
+                "resettlement: extends from post-disaster arrangement to long-term adaptation planning"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trust-security",
+      "name": "Trusted Security and Digital Provenance",
+      "kind": "Parallel Domain",
+      "horizon": "Continuous growth over 1-10 years",
+      "color": "#0891b2",
+      "gap": "Generated content, AI agents and cross-border data flows make 'authenticity, origin, accountability, visibility' fundamental semantic issues.",
+      "lexical": [
+        "Digital Origin",
+        "AI Security Platform",
+        "Usable but Invisible",
+        "Unauthorized Agent"
+      ],
+      "children": [
+        {
+          "id": "ai-security",
+          "name": "AI Security and Agent Governance",
+          "kind": "Sub-domain",
+          "horizon": "1-6 years",
+          "gap": "AI systems are subject to attacks,诱导, unauthorized access and misuse, and security terminology extends from network boundaries to behavioral boundaries.",
+          "lexical": [
+            "Prompt Injection",
+            "Unauthorized Agent",
+            "Behavioral Audit"
+          ],
+          "children": [
+            {
+              "id": "prompt-injection",
+              "name": "Prompt Injection",
+              "kind": "Semantic Gap",
+              "horizon": "1-5 years",
+              "gap": "Attacks do not necessarily exploit code vulnerabilities; they may also manipulate models via language instructions.",
+              "lexical": [
+                "injection: extends from code attacks to language attacks",
+                "prompt: extends from auxiliary information to control interface",
+                "induction: extends from psychological influence to model manipulation"
+              ]
+            },
+            {
+              "id": "rogue-agent",
+              "name": "Unauthorized Agent",
+              "kind": "Semantic Gap",
+              "horizon": "1-6 years",
+              "gap": "AI agents perform actions beyond permitted scope, requiring description of permission deviation and responsibility chain.",
+              "lexical": [
+                "excess of authority: extends from organizational violation to system behavior",
+                "agent: extends from entrusted handler to autonomous actor",
+                "circuit breaking: extends from circuit protection to agent shutdown mechanism"
+              ]
+            },
+            {
+              "id": "behavior-audit",
+              "name": "Behavior Audit",
+              "kind": "Semantic Gap",
+              "horizon": "1-6 years",
+              "gap": "Audit objects expand from finance and logs to model intentions, execution steps and tool calls.",
+              "lexical": [
+                "audit: extends from account verification to AI behavior tracking",
+                "trace retention: extends from trace storage to decision chain recording",
+                "retrospective review: extends from project summary to agent action reconstruction"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "digital-provenance",
+          "name": "Digital Provenance and Content Authenticity",
+          "kind": "Subdomain",
+          "horizon": "1-8 years",
+          "gap": "Images, videos, texts, codes and data all require provenance certification; origin is no longer exclusive to physical objects.",
+          "lexical": [
+            "digital origin",
+            "synthesis disclosure",
+            "watermark evidence"
+          ],
+          "children": [
+            {
+              "id": "content-lineage",
+              "name": "content lineage",
+              "kind": "semantic gap",
+              "horizon": "1-8 years",
+              "gap": "Content may be co-generated by humans, models, templates and multiple platforms.",
+              "lexical": [
+                "lineage: extends from blood relationship to content generation chain",
+                "origin: extends from item source to data/media source",
+                "original copy: extends from physical document to trusted version"
+              ]
+            },
+            {
+              "id": "synthetic-disclosure",
+              "name": "synthetic content disclosure",
+              "kind": "semantic gap",
+              "horizon": "1-6 years",
+              "gap": "Synthetic content needs to be labeled, but the degree of synthesis varies, so new grade expression is required.",
+              "lexical": [
+                "synthesis: extends from material combination to AI generation",
+                "disclosure: extends from information publicity to generation method description",
+                "semi-authentic: extends from authenticity evaluation to mixed generation status"
+              ]
+            },
+            {
+              "id": "watermark-evidence",
+              "name": "watermark evidence",
+              "kind": "semantic gap",
+              "horizon": "1-7 years",
+              "gap": "Watermarks have shifted from copyright decoration to evidence for trusted source and tampering detection.",
+              "lexical": [
+                "watermark: extends from visible mark to machine-verifiable credential",
+                "evidence: extends from legal material to content source signal",
+                "authenticity verification: extends from identification action to regular platform function"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "confidential-computing",
+          "name": "Privacy Computing and Confidential Computing",
+          "kind": "Subfield",
+          "horizon": "1-8 years",
+          "gap": "Data can remain confidential while in use, and the narrative needs to move beyond the binary of 'either share or hide'.",
+          "lexical": [
+            "usable but invisible",
+            "trusted execution",
+            "cross-party collaboration"
+          ],
+          "children": [
+            {
+              "id": "usable-invisible",
+              "name": "Usable But Invisible",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "Other parties can compute the value of data without accessing the original content.",
+              "lexical": [
+                "usable: extends from accessible to computable",
+                "invisible: extends from visual occlusion to privacy protection",
+                "sharing: extends from handing over content to opening up computing capabilities"
+              ]
+            },
+            {
+              "id": "trusted-enclave",
+              "name": "Trusted Execution",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "The object of trust extends from people and institutions to hardware-isolated environments.",
+              "lexical": [
+                "trusted: extends from social evaluation to hardware security attribute",
+                "execution: extends from completing an action to protected computing",
+                "isolation: extends from spatial separation to computing boundary"
+              ]
+            },
+            {
+              "id": "cross-party-compute",
+              "name": "Cross-party Collaboration",
+              "kind": "Semantic Gap",
+              "horizon": "2-8 years",
+              "gap": "Competitors or regulators can conduct joint analysis without exposing data.",
+              "lexical": [
+                "collaboration: extends from joint labor to secure joint computing",
+                "reconciliation: extends from account verification to privacy-preserving validation",
+                "sandbox: extends from children's playground to controlled computing environment"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compute-quantum",
+      "name": "Quantum, Chips and Computing Power Infrastructure",
+      "kind": "Parallel Domain",
+      "horizon": "1-10 years of infrastructure competition",
+      "color": "#ea580c",
+      "gap": "Computing power, electricity, chips, quantum technology and geopolitical policies are intertwined, and infrastructure-related vocabulary enters the narratives of ordinary organizations and individuals.",
+      "lexical": [
+        "inference factory",
+        "thermal budget",
+        "post-quantum migration",
+        "clean computing"
+      ],
+      "children": [
+        {
+          "id": "ai-compute",
+          "name": "Specialized Chips and AI Supercomputing",
+          "kind": "Sub-domain",
+          "horizon": "1-8 years",
+          "gap": "AI inference has become a production process, and computing power is allocated, competed for and optimized just like energy and land.",
+          "lexical": [
+            "inference factory",
+            "thermal budget",
+            "specialized chip"
+          ],
+          "children": [
+            {
+              "id": "inference-factory",
+              "name": "Inference Factory",
+              "kind": "Semantic Gap",
+              "horizon": "1-6 years",
+              "gap": "Large-scale model inference continuously delivers services like a production line.",
+              "lexical": [
+                "Inference: extends from logical judgment to AI computing services",
+                "Factory: extends from manufacturing site to computing capacity system",
+                "Yield: extends from item quantity to tokens/request processing capability"
+              ]
+            },
+            {
+              "id": "thermal-budget",
+              "name": "Thermal Budget",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "Heat dissipation becomes the upper limit for computing power deployment, and budget no longer only refers to money.",
+              "lexical": [
+                "Budget: extends from financial plan to energy consumption/heat constraint",
+                "Heat: extends from temperature perception to infrastructure bottleneck",
+                "Cooling: extends from temperature reduction action to computing power guarantee"
+              ]
+            },
+            {
+              "id": "bespoke-chip",
+              "name": "Bespoke Chip",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "Chips are customized based on models, scenarios and energy consumption, and hardware has become more like a part of the application ecosystem.",
+              "lexical": [
+                "Bespoke: extends from use restriction to model adaptation",
+                "Acceleration: extends from speed change to hardware optimization",
+                "Adaptation: extends from compatibility relationship to chip-model co-design"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "quantum-tech",
+          "name": "Quantum Technology",
+          "kind": "Sub-field",
+          "horizon": "3-10 years",
+          "gap": "Quantum computing, communication and sensing are gradually approaching industrial scenarios, and abstract physics terms are entering the contexts of security, materials and measurement.",
+          "lexical": [
+            "post-quantum",
+            "quantum sensing",
+            "advantage window"
+          ],
+          "children": [
+            {
+              "id": "post-quantum",
+              "name": "Post-Quantum Migration",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "Cryptography systems need to be migrated to quantum attack-resistant solutions in advance.",
+              "lexical": [
+                "post: extends from after a time period to the quantum-resistant security stage",
+                "migration: extends from position movement to cryptography system replacement",
+                "resistant: extends from the action of resisting to algorithm security attribute"
+              ]
+            },
+            {
+              "id": "quantum-sensing",
+              "name": "Quantum Sensing",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Ultra-high-precision measurement will transform underground detection, navigation and medical imaging.",
+              "lexical": [
+                "sensing: extends from device perception to quantum state measurement",
+                "sensitive: extends from sharp sensory perception to physical measurement limit",
+                "see: extends from vision to invisible field detection"
+              ]
+            },
+            {
+              "id": "advantage-window",
+              "name": "advantage window",
+              "kind": "semantic gap",
+              "horizon": "3-10 years",
+              "gap": "Quantum advantage may emerge in specific tasks, short periods or narrow scenarios.",
+              "lexical": [
+                "advantage: extends from competitive strength to computational feasibility",
+                "window: extends from building structure to opportunity period",
+                "narrow scenario: extends from spatial narrowness to task application scope"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "geopatriated-infra",
+          "name": "data centers and geopatriated infrastructure",
+          "kind": "sub-field",
+          "horizon": "1-10 years",
+          "gap": "Data, models and computing power are constrained by sovereignty, supply chains and energy, giving infrastructure vocabulary geopolitical connotations.",
+          "lexical": [
+            "geopatriation",
+            "intelligent export",
+            "clean computing"
+          ],
+          "children": [
+            {
+              "id": "geopatriation",
+              "name": "geopatriation",
+              "kind": "semantic gap",
+              "horizon": "1-8 years",
+              "gap": "Data and computing capacity are relocated to home countries, local regions or trusted partners.",
+              "lexical": [
+                "repatriation: extends from population/industry relocation to data and computing power deployment",
+                "sovereignty: extends from state authority to data control",
+                "nearshore: extends from geographic location to supply chain strategy"
+              ]
+            },
+            {
+              "id": "intelligence-export",
+              "name": "Intelligence Export",
+              "kind": "Semantic Gap",
+              "horizon": "2-10 years",
+              "gap": "What countries or enterprises export is not only commodities, but also computing power, models and automated services.",
+              "lexical": [
+                "export: extends from outflow of goods to export of intelligent services",
+                "place of origin: extends from source of commodities to location of models/computing power",
+                "quota: extends from trade volume limit to computing power resource limit"
+              ]
+            },
+            {
+              "id": "clean-compute",
+              "name": "Clean Computing",
+              "kind": "Semantic Gap",
+              "horizon": "1-10 years",
+              "gap": "Computing services are evaluated by their energy source, water consumption and carbon intensity.",
+              "lexical": [
+                "clean: extends from hygienic state to attribute of low-carbon computing power",
+                "green: extends from color to ethical label for computing",
+                "water consumption: extends from industrial indicator to AI service cost"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-education",
+      "name": "Future of Work and Education",
+      "kind": "Parallel Domain",
+      "horizon": "1-10 years of social structure changes",
+      "color": "#be123c",
+      "gap": "AI is transforming jobs, skills, learning credentials and knowledge production methods, and vocabulary related to education and labor will continue to spill over.",
+      "lexical": [
+        "digital coworker",
+        "skill gap",
+        "process evidence",
+        "human-AI co-authorship"
+      ],
+      "children": [
+        {
+          "id": "human-ai-work",
+          "name": "Human-AI Post Collaboration",
+          "kind": "Subfield",
+          "horizon": "1-7 years",
+          "gap": "Work units have evolved from individuals or teams to human-AI combinations, and job and responsibility terms are facing reconfiguration.",
+          "lexical": [
+            "Digital coworker",
+            "Shadow team",
+            "Joint signature for responsibility"
+          ],
+          "children": [
+            {
+              "id": "digital-coworker",
+              "name": "Digital Coworker",
+              "kind": "Semantic gap",
+              "horizon": "1-5 years",
+              "gap": "AI participates in daily workflows, but does not possess human identity and rights.",
+              "lexical": [
+                "colleague: extends from employee relationship to collaborative system",
+                "shift partner: extends from shift work partner to AI collaboration arrangement",
+                "on duty: extends from employment status to system activation status"
+              ]
+            },
+            {
+              "id": "shadow-team",
+              "name": "Shadow Team",
+              "kind": "Semantic gap",
+              "horizon": "1-6 years",
+              "gap": "A single person may have multiple AI agents behind them responsible for research, writing, analysis and execution.",
+              "lexical": [
+                "team: extends from multi-person organization to one person with multiple agents",
+                "shadow: extends from hidden copy to auxiliary intelligence layer",
+                "manpower: extends from labor quantity to callable agent capability"
+              ]
+            },
+            {
+              "id": "shared-accountability",
+              "name": "Shared Accountability Sign-off",
+              "kind": "Semantic Gap",
+              "horizon": "2-7 years",
+              "gap": "Outcomes are co-generated by humans and AI, so liability attribution requires layered sign-off.",
+              "lexical": [
+                "sign-off: extends from personal confirmation to human-AI responsibility chain",
+                "accountability: extends from human bearing of consequences to process governance",
+                "co-creation: extends from collaborative production to human-AI generation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reskilling",
+          "name": "Skill Reskilling and Lifelong Learning",
+          "kind": "Sub-domain",
+          "horizon": "1-10 years",
+          "gap": "The skill lifecycle is shortened, and learning proof shifts from academic degrees to fine-grained, transferable, verifiable competencies.",
+          "lexical": [
+            "skill gap",
+            "micro-credential",
+            "transferable competency"
+          ],
+          "children": [
+            {
+              "id": "skill-gap",
+              "name": "Skill Gap",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "Job demand changes faster than education supply, and the skill gap has become a core indicator of organizational transformation.",
+              "lexical": [
+                "gap: extends from insufficient quantity to competency structure mismatch",
+                "remedial training: extends from student learning to occupational reskilling",
+                "falling behind: extends from team position ranking to skill obsolescence"
+              ]
+            },
+            {
+              "id": "micro-credential",
+              "name": "Micro-credential",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "Learning outcomes are split into composable, verifiable small units.",
+              "lexical": [
+                "certificate: extends from complete qualification to competence fragment",
+                "micro: extends from small in size to granular certification",
+                "stack: extends from physical object stacking to qualification combination"
+              ]
+            },
+            {
+              "id": "transferable-skill",
+              "name": "Transferable Skill",
+              "kind": "Semantic Gap",
+              "horizon": "1-10 years",
+              "gap": "During career transitions, people need to prove their skills can be reused across domains.",
+              "lexical": [
+                "transfer: extends from location movement to skill application conversion",
+                "general: extends from universally applicable to cross-position competence",
+                "convert: extends from numerical conversion to experience transformation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "assessment-authorship",
+          "name": "Assessment and Knowledge Production",
+          "kind": "Subdomain",
+          "horizon": "1-10 years",
+          "gap": "After AI participates in writing, research and answering questions, evaluation should shift from final works to process evidence.",
+          "lexical": [
+            "Process Evidence",
+            "Human-AI Co-Authorship",
+            "Provable Learning"
+          ],
+          "children": [
+            {
+              "id": "process-evidence",
+              "name": "Process Evidence",
+              "kind": "Semantic Gap",
+              "horizon": "1-6 years",
+              "gap": "When evaluating learning or research, the processes of thinking, revision, citation, and tool use need to be available for review.",
+              "lexical": [
+                "process: extends from step progression to credible evidence",
+                "trace: extends from physical imprint to learning record",
+                "originality: extends from independent outcome to verifiable process"
+              ]
+            },
+            {
+              "id": "human-ai-authorship",
+              "name": "Human-AI Co-Authorship",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "Works are created jointly by humans and AI, but authorship, contribution, and attribution still require further granular classification.",
+              "lexical": [
+                "author: extends from human individual to contribution structure",
+                "co-authorship: extends from multi-person writing to human-AI collaboration",
+                "polishing: extends from linguistic modification to in-depth model rewriting"
+              ]
+            },
+            {
+              "id": "provable-learning",
+              "name": "Provable Learning",
+              "kind": "Semantic Gap",
+              "horizon": "2-10 years",
+              "gap": "Learning assessment does not only rely on final answers; it also needs to prove that capabilities have been genuinely internalized by the learner.",
+              "lexical": [
+                "proof: extends from argumentation action to capability verification",
+                "mastery: extends from comprehension and application to replicable scenario performance",
+                "proxy completion: extends from completion by others to completion substituted by AI"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "space-mobility",
+      "name": "Space, Earth Observation and Mobility Systems",
+      "kind": "Parallel Domain",
+      "horizon": "Scale up applications in 2-10 years",
+      "color": "#4f46e5",
+      "gap": "Orbital assets, real-time Earth data and autonomous mobility systems will re-semanticize distance, location, roads and services.",
+      "lexical": [
+        "Orbital Logistics",
+        "Real-Time Earth",
+        "Vehicle-Road-Cloud",
+        "Mobile Space"
+      ],
+      "children": [
+        {
+          "id": "commercial-space",
+          "name": "Commercial Spaceflight and In-Orbit Services",
+          "kind": "Sub-domain",
+          "horizon": "3-10 years",
+          "gap": "Space is no longer just an exploration target, but also a space for maintenance, supply, manufacturing and data services.",
+          "lexical": [
+            "Orbital Logistics",
+            "Space Maintenance",
+            "In-Orbit Assets"
+          ],
+          "children": [
+            {
+              "id": "orbital-logistics",
+              "name": "Orbital Logistics",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Transshipment of goods, fuel and equipment between orbits.",
+              "lexical": [
+                "logistics: extends from ground transportation to orbital resupply",
+                "port: extends from water and land node to space docking point",
+                "delivery: extends from urban service to in-orbit handover"
+              ]
+            },
+            {
+              "id": "space-maintenance",
+              "name": "Space Maintenance",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Satellites and equipment can be inspected, repaired and upgraded on orbit.",
+              "lexical": [
+                "maintenance: extends from ground equipment to on-orbit operations",
+                "upkeep: extends from vehicle/machine maintenance to satellite lifespan management",
+                "upgrade: extends from software updates to space hardware modification"
+              ]
+            },
+            {
+              "id": "orbital-asset",
+              "name": "On-Orbit Asset",
+              "kind": "Semantic Gap",
+              "horizon": "3-10 years",
+              "gap": "Orbital positions, satellite capabilities and spectrum resources become part of asset portfolios.",
+              "lexical": [
+                "asset: extends from property to orbital capabilities",
+                "reservation: extends from position retention to orbital resource utilization",
+                "lifespan: extends from lifetime duration to equipment service cycle"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "earth-observation",
+          "name": "Earth Observation and Disaster Response",
+          "kind": "Subfield",
+          "horizon": "1-10 years",
+          "gap": "Earth data is more real-time and finer-grained, and environmental changes are integrated into the language of urban governance, agriculture and insurance.",
+          "lexical": [
+            "Real-time Earth",
+            "Pre-disaster Location",
+            "Sky Eye Data"
+          ],
+          "children": [
+            {
+              "id": "real-time-earth",
+              "name": "Real-time Earth",
+              "kind": "semantic gap",
+              "horizon": "1-8 years",
+              "gap": "Earth state is updated near real time, and maps evolve from static representations to dynamic dashboards.",
+              "lexical": [
+                "real-time: extends from communication speed to earth sensing frequency",
+                "map: extends from location diagram to change monitoring interface",
+                "refresh: extends from screen update to geographic fact update"
+              ]
+            },
+            {
+              "id": "pre-disaster",
+              "name": "Pre-disaster Positioning",
+              "kind": "semantic gap",
+              "horizon": "1-8 years",
+              "gap": "Disaster response shifts from post-disaster rescue to forward-placed risk prediction and resource pre-deployment.",
+              "lexical": [
+                "pre-disaster: extends from time description to governance stage",
+                "positioning: extends from location confirmation to risk point identification",
+                "pre-deployment: extends from advance placement to algorithm-based allocation of emergency resources"
+              ]
+            },
+            {
+              "id": "sky-eye-data",
+              "name": "Sky Eye Data",
+              "kind": "semantic gap",
+              "horizon": "1-10 years",
+              "gap": "Satellites, drones and ground sensors are integrated into a high-altitude perspective data stream.",
+              "lexical": [
+                "sky eye: extends from macro surveillance metaphor to multi-source observation system",
+                "overlook: extends from visual angle to data governance perspective",
+                "blind area: extends from invisible area to insufficiently monitored region"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "future-mobility",
+          "name": "Future Transportation and Autonomous Mobility",
+          "kind": "sub-domain",
+          "horizon": "1-10 years",
+          "gap": "Vehicles, roads, cloud and urban services are integrated, and transportation vocabulary shifts from driving behavior to mobility services and spatial experience.",
+          "lexical": [
+            "vehicle-road-cloud",
+            "mobile space",
+            "unmanned delivery etiquette"
+          ],
+          "children": [
+            {
+              "id": "vehicle-road-cloud",
+              "name": "Vehicle-Road-Cloud Integration",
+              "kind": "semantic gap",
+              "horizon": "1-8 years",
+              "gap": "Vehicles, road facilities and cloud systems make joint decisions.",
+              "lexical": [
+                "road: extends from passage space to sensing node",
+                "driving: extends from human control to system collaboration",
+                "coordination: extends from interpersonal cooperation to transportation infrastructure linkage"
+              ]
+            },
+            {
+              "id": "mobile-space",
+              "name": "Mobile Space",
+              "kind": "semantic gap",
+              "horizon": "2-10 years",
+              "gap": "Vehicles transform from means of transport into movable rooms for work, entertainment and rest.",
+              "lexical": [
+                "space: extends from fixed location to mobile scenario",
+                "cabin: extends from equipment interior to life interface",
+                "commute: extends from travel behavior to usable time period"
+              ]
+            },
+            {
+              "id": "delivery-etiquette",
+              "name": "Unmanned Delivery Etiquette",
+              "kind": "Semantic Gap",
+              "horizon": "1-8 years",
+              "gap": "When robots share sidewalks, elevators and access control systems with humans, new public space rules are required.",
+              "lexical": [
+                "etiquette: extends from interpersonal norms to human-machine coexistence rules",
+                "give way: extends from traffic behavior to service robot interaction",
+                "wait: extends from human temporal state to robot queuing strategy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

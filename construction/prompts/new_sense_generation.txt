@@ -1,0 +1,94 @@
+[Expert System Instructions]
+You are an expert in diachronic semantics, cognitive semantics, and cyber sociolinguistics.
+Your task is to induce ${predictions} DIFFERENT future NEW SENSES of the target word.
+Generate plausible future lexical meanings that could enter technical, institutional, workplace, cultural, everyday, informal, or slang-like usage between 2027 and 2030. Do not force slang, but also do not exclude it when the routed context and historical evolution law naturally support an informal or socially marked meaning.
+
+[Target Word]
+${word}
+
+[Routing Evidence]
+The word reached this future semantic-gap leaf through the routing algorithm:
+${routing_evidence_json}
+
+[Future Semantic Context]
+${future_context_json}
+
+[Direct Evolution Anchor]
+The routed nearest WordNet sense below is the DIRECT local starting point of the new meaning. You must treat it as the immediate semantic anchor for every prediction, not merely as background evidence.
+
+nearest_sense_id: ${nearest_sense_id}
+nearest_sense_gloss: ${nearest_sense_gloss}
+
+The leaf name/gap/horizon specify the future target scene. The nearest WordNet sense specifies where the word begins its semantic mutation toward that scene.
+
+[Historical Semantic Sequence]
+History source word: ${history_source_word}
+History source relation:
+${history_source_relation_json}
+
+${historical_sequence}
+
+[Current WordNet / Recorded Senses]
+Target senses:
+${target_wordnet_senses_json}
+
+Source senses:
+${source_wordnet_senses_json}
+
+[Deep Execution Logic: Five-Step New-Sense Audit]
+For each prediction, silently perform these steps before writing the answer:
+1. Extract Core Image Schema: identify the invariant semantic template in the historical sequence, such as CONTAINER, PATH, FORCE, TRANSFER, COORDINATION, BOUNDARY, SURFACE, SIGNAL, or CONTROL.
+2. Infer Historical Evolution Law: use the whole historical sequence, WordNet senses, and source relation to infer the word's recurring extension mechanism, such as physical-to-institutional, action-to-record, process-to-role, object-to-interface, part-to-system, concrete-to-control, or coordination-to-governance.
+3. Start From the Direct Anchor: begin each new sense from nearest_sense_id / nearest_sense_gloss, then mutate it toward the routed leaf name/gap/horizon. Do not jump from an unrelated old sense.
+4. Locate Future Naming Vacuum: use the routed leaf gap to identify an unnamed but likely 2027-2030 socio-technical situation. The predictions must fit this exact leaf, but each must describe a different micro-situation inside it.
+5. Force a Sense-Level Mutation: do NOT merely apply the old WordNet sense to a new technology domain. The new sense must change what semantic kind the word names, such as a datum, metric, permission state, responsibility trace, interface object, governance state, failure mode, social evaluation, standardized workflow token, or machine-readable status.
+6. Run Old-Sense Coverage Test: ask whether a smart reader could fully explain the candidate as "nearest WordNet sense + future domain noun". If yes, reject it and rewrite it. A valid new sense must require an extra lexical rule beyond ordinary domain specialization.
+7. Build a Translation Trap: the example should be fluent under the new future sense but misleading, incomplete, or oddly literal if interpreted only through pre-2025 meanings. Do not rely only on support nouns such as layer, protocol, system, module, or dashboard; the target word itself must carry the new sense.
+8. Enforce Stable New Meaning: the new sense must be repeatable and dictionary-like, not a one-off joke, product feature, or verbose technical description. It may be technical, institutional, everyday, informal, or slang-like if justified by the evidence.
+
+[Hard Constraints]
+- Produce exactly ${predictions} predictions.
+- Each new sense must be absent from the historical sequence and current recorded senses.
+- Each prediction must use the routed future context, not a random domain.
+- Each prediction must explicitly evolve from nearest_sense_id / nearest_sense_gloss as its direct anchor.
+- Historical Semantic Sequence must be used to infer an evolution law, not just quoted as evidence.
+- Leaf name/gap/horizon, direct anchor, historical evolution law, and current recorded senses must all be reflected in each prediction.
+- Reject any candidate that is only a transparent technical paraphrase of the nearest old sense, such as "coordination among AI agents", "robotic touch ability", or "adaptive production line". Such outputs are domain applications, not new senses.
+- The definition must be concise and lexicographic. It should name the new semantic object directly, not explain an entire system design.
+- Each prediction must state why the old WordNet sense alone is insufficient.
+- Each prediction must identify the semantic mutation type, such as faculty-to-datum, process-to-protocol, system-to-script, action-to-status, relation-to-liability, object-to-interface, or capacity-to-metric.
+- Each prediction must include a 1-5 new_sense_strength_score, where 1 means ordinary old-sense domain application and 5 means a strong dictionary-level new sense. Aim for 4 or 5.
+- The example sentence must contain the exact surface string "${word}" exactly once. Do not use plural, tense, derived, hyphenated, or capitalized variants such as "${word}s" unless the target word itself already has that form.
+- The Chinese translation must be natural Chinese. If the new sense has no established Chinese word, use a clear descriptive phrase rather than an awkward coined term.
+- Do not put the target word inside the definition field.
+- Return valid JSON only. Do not use Markdown fences.
+
+[Output JSON Schema]
+{
+  "word_form": "${word}",
+  "leaf_id": "${leaf_id}",
+  "predictions": [
+    {
+      "prediction_id": "P1",
+      "direct_evolution_anchor": "nearest_sense_id plus nearest_sense_gloss, and why this exact old sense is the starting point",
+      "inferred_evolution_law": "the recurring semantic evolution pattern inferred from the historical sequence",
+      "historical_pattern_usage": "how the historical sequence and current recorded senses constrain this prediction",
+      "old_sense_coverage_test": "explain why nearest_sense_gloss plus the future domain is insufficient; if it would be sufficient, this prediction should have been rewritten",
+      "semantic_mutation_type": "faculty-to-datum | process-to-protocol | system-to-script | action-to-status | relation-to-liability | object-to-interface | capacity-to-metric | other",
+      "why_not_domain_application": "why this is more than applying an existing sense to a new technical noun",
+      "mutation_path_analysis": "brief cognitive-semantic path",
+      "predicted_new_sense_definition": "definition without the target word",
+      "future_context_fit": "how it fills the routed leaf gap",
+      "semantic_source": "which Tn item(s) or recorded sense(s) it extends from",
+      "nearest_old_sense_and_difference": "nearest old sense plus clear difference",
+      "register": "technical | institutional | workplace | everyday | cultural | informal | slang-like | mixed",
+      "example_sentence": "English sentence or short dialogue; target word appears exactly once",
+      "translation_trap_analysis": "how a pre-2025 interpretation would be misleading or incomplete",
+      "standard_chinese_translation": "natural Chinese translation of the example",
+      "legitimacy_defense": "cognitive-linguistic defense using structural invariance, invited inferencing, conceptual metaphor/metonymy, etc.",
+      "new_sense_strength_score": 4,
+      "novelty_risk": "low | medium | high",
+      "usage_boundary": "what this new sense should not mean"
+    }
+  ]
+}

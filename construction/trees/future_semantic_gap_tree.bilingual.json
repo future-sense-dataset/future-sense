@@ -1,0 +1,3758 @@
+[
+  {
+    "id": "root",
+    "path": [
+      "root"
+    ],
+    "depth": 0,
+    "zh": {
+      "name": "未来1-10年新词义与语义空白",
+      "kind": "总图谱",
+      "horizon": "2026-2036",
+      "gap": "当新技术、新制度和新生活形态出现时，旧词会被迫承担新的指称、评价和关系功能。",
+      "lexical": [
+        "旧词新义",
+        "隐喻扩展",
+        "转喻扩展",
+        "术语日常化",
+        "日常词术语化"
+      ],
+      "note": "一级领域平行展开；二级领域指未来较可能产生语义空白的位置；三级节点给出可观察的新义方向。"
+    },
+    "en": {
+      "name": "New Word Meanings and Semantic Gaps in the Next 1–10 Years",
+      "kind": "General Graph",
+      "horizon": "2026–2036",
+      "gap": "When new technologies, new institutions and new lifestyles emerge, existing words are forced to take on new referential, evaluative and relational functions.",
+      "lexical": [
+        "new meaning of old words",
+        "metaphorical extension",
+        "metonymic extension",
+        "popularization of technical terms",
+        "terminologization of common words"
+      ],
+      "note": "Level-1 domains are expanded in parallel; level-2 domains refer to positions where semantic gaps are more likely to emerge in the future; level-3 nodes provide observable directions of new meaning emergence."
+    }
+  },
+  {
+    "id": "ai-agents",
+    "path": [
+      "root",
+      "ai-agents"
+    ],
+    "depth": 1,
+    "zh": {
+      "name": "智能体与协作认知",
+      "kind": "平行领域",
+      "horizon": "1-5年高强度扩散",
+      "gap": "软件从“工具”转向能计划、协商和执行的行动者，旧有的“助手、代理、同事、责任”等词需要重分边界。",
+      "lexical": [
+        "代理",
+        "同事",
+        "委托",
+        "接管",
+        "共签"
+      ]
+    },
+    "en": {
+      "name": "AI Agents and Collaborative Cognition",
+      "kind": "Parallel Domain",
+      "horizon": "High-intensity diffusion in 1–5 years",
+      "gap": "As software shifts from 'tools' to actors capable of planning, negotiation and execution, the boundaries of existing words such as 'assistant, agent, colleague, responsibility' need to be redefined.",
+      "lexical": [
+        "agent",
+        "colleague",
+        "entrustment",
+        "takeover",
+        "co-signing"
+      ]
+    }
+  },
+  {
+    "id": "multi-agent",
+    "path": [
+      "root",
+      "ai-agents",
+      "multi-agent"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "多智能体工作流",
+      "kind": "子领域",
+      "horizon": "1-3年",
+      "gap": "多个AI代理协同完成任务时，缺少描述“机器之间分工、交接、争议解决”的日常词。",
+      "lexical": [
+        "代理编队",
+        "任务接力",
+        "数字工段"
+      ]
+    },
+    "en": {
+      "name": "Multi-Agent Workflow",
+      "kind": "Subdomain",
+      "horizon": "1–3 years",
+      "gap": "When multiple AI agents collaborate to complete tasks, there is a lack of common words to describe 'division of labor, handover and dispute resolution between machines'.",
+      "lexical": [
+        "agent formation",
+        "task relay",
+        "digital work section"
+      ]
+    }
+  },
+  {
+    "id": "agent-delegation",
+    "path": [
+      "root",
+      "ai-agents",
+      "multi-agent",
+      "agent-delegation"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "委托边界",
+      "kind": "语义空白",
+      "horizon": "1-3年",
+      "gap": "人把判断权暂时交给系统，但责任未完全转移。",
+      "lexical": [
+        "委托: 从人际授权扩展为人机授权",
+        "接管: 从临时控制扩展为流程自治",
+        "越权: 从组织行为扩展为AI行为"
+      ]
+    },
+    "en": {
+      "name": "Delegation Boundary",
+      "kind": "Semantic Gap",
+      "horizon": "1-3 years",
+      "gap": "Users temporarily hand over decision-making authority to the system, but full responsibility transfer has not been completed.",
+      "lexical": [
+        "delegation: extends from interpersonal authorization to human-machine authorization",
+        "takeover: extends from temporary control to process autonomy",
+        "exceeding authority: extends from organizational behavior to AI behavior"
+      ]
+    }
+  },
+  {
+    "id": "agent-handoff",
+    "path": [
+      "root",
+      "ai-agents",
+      "multi-agent",
+      "agent-handoff"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "机器交接",
+      "kind": "语义空白",
+      "horizon": "1-3年",
+      "gap": "不同模型或代理接续处理同一任务，语言需要标记上下文、权限和目标的移交。",
+      "lexical": [
+        "交接: 从岗位移交扩展为上下文移交",
+        "接力: 从体育隐喻扩展为代理链路",
+        "断点: 从程序状态扩展为协作记忆"
+      ]
+    },
+    "en": {
+      "name": "Machine Handoff",
+      "kind": "Semantic Gap",
+      "horizon": "1-3 years",
+      "gap": "Different models or agents take over processing the same task in sequence, requiring the handover of context, permissions and objectives to be marked in the language.",
+      "lexical": [
+        "handoff: extends from post transfer to context transfer",
+        "relay: extends from a sports metaphor to agent chain",
+        "breakpoint: extends from program state to collaborative memory"
+      ]
+    }
+  },
+  {
+    "id": "agent-negotiation",
+    "path": [
+      "root",
+      "ai-agents",
+      "multi-agent",
+      "agent-negotiation"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "代理协商",
+      "kind": "语义空白",
+      "horizon": "2-5年",
+      "gap": "AI之间为资源、目标或策略进行协调，现有“协商”词义带有人类意图色彩。",
+      "lexical": [
+        "协商: 从人际谈判扩展为算法协调",
+        "让步: 从心理动作扩展为目标权重调整",
+        "共识: 从意见一致扩展为模型输出收敛"
+      ]
+    },
+    "en": {
+      "name": "Agent Negotiation",
+      "kind": "Semantic Gap",
+      "horizon": "2-5 years",
+      "gap": "AI systems coordinate with each other for resources, objectives or strategies; the existing definition of 'negotiation' carries the connotation of human intent.",
+      "lexical": [
+        "negotiation: extends from interpersonal negotiation to algorithmic coordination",
+        "concession: extends from a psychological action to target weight adjustment",
+        "consensus: extends from alignment of opinions to convergence of model outputs"
+      ]
+    }
+  },
+  {
+    "id": "domain-models",
+    "path": [
+      "root",
+      "ai-agents",
+      "domain-models"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "行业专用模型",
+      "kind": "子领域",
+      "horizon": "1-5年",
+      "gap": "通用模型进入医疗、法律、金融、教育等专业场景后，需要表达“专业语境中的可解释、合规和可信”。",
+      "lexical": [
+        "领域语感",
+        "模型资质",
+        "合规语料"
+      ]
+    },
+    "en": {
+      "name": "Industry-Specific Models",
+      "kind": "Subfield",
+      "horizon": "1-5 years",
+      "gap": "After general-purpose models are applied to professional scenarios such as healthcare, law, finance and education, they need to embody 'interpretability, compliance and trustworthiness in professional contexts'.",
+      "lexical": [
+        "domain language sense",
+        "model credential",
+        "compliance corpus"
+      ]
+    }
+  },
+  {
+    "id": "domain-taste",
+    "path": [
+      "root",
+      "ai-agents",
+      "domain-models",
+      "domain-taste"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "领域语感",
+      "kind": "语义空白",
+      "horizon": "1-4年",
+      "gap": "模型能否理解专业共同体的隐含规则，不只是词汇匹配。",
+      "lexical": [
+        "语感: 从人的语言直觉扩展为模型的场景适配",
+        "懂行: 从经验判断扩展为领域模型能力",
+        "内行话: 从群体口语扩展为训练数据特征"
+      ]
+    },
+    "en": {
+      "name": "Domain Language Sense",
+      "kind": "Semantic Gap",
+      "horizon": "1-4 years",
+      "gap": "The model's ability to understand the implicit rules of the professional community goes beyond mere lexical matching.",
+      "lexical": [
+        "language sense: extends from human linguistic intuition to model scenario adaptation",
+        "industry expertise: extends from empirical judgment to domain model capability",
+        "insider jargon: extends from group colloquialism to training data feature"
+      ]
+    }
+  },
+  {
+    "id": "model-credential",
+    "path": [
+      "root",
+      "ai-agents",
+      "domain-models",
+      "model-credential"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "模型资质",
+      "kind": "语义空白",
+      "horizon": "2-6年",
+      "gap": "模型被用于专业判断时，缺少类似执照、资质、审验等级的表达。",
+      "lexical": [
+        "资质: 从人的资格扩展为模型可用范围",
+        "执业: 从职业行为扩展为模型服务边界",
+        "背书: 从机构信用扩展为模型审验"
+      ]
+    },
+    "en": {
+      "name": "Model Credential",
+      "kind": "Semantic Gap",
+      "horizon": "2-6 years",
+      "gap": "When models are used for professional judgment, there is a lack of representations equivalent to licenses, qualifications, and verification levels.",
+      "lexical": [
+        "qualification: extends from human professional qualification to model applicable scope",
+        "practice: extends from professional conduct to model service boundary",
+        "endorsement: extends from institutional credit to model verification"
+      ]
+    }
+  },
+  {
+    "id": "regulated-corpus",
+    "path": [
+      "root",
+      "ai-agents",
+      "domain-models",
+      "regulated-corpus"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "合规语料",
+      "kind": "语义空白",
+      "horizon": "1-5年",
+      "gap": "语料不再只是数据来源，还带有版权、隐私、行业规范和地域限制。",
+      "lexical": [
+        "语料: 从语言材料扩展为合规资产",
+        "清洁: 从卫生评价扩展为数据授权状态",
+        "投喂: 从喂养隐喻扩展为训练输入"
+      ]
+    },
+    "en": {
+      "name": "Regulated Corpus",
+      "kind": "Semantic Gap",
+      "horizon": "1-5 years",
+      "gap": "Corpus is no longer just a data source, but also carries copyright, privacy, industry specification and regional restrictions.",
+      "lexical": [
+        "word: extends from language material to compliant asset",
+        "clean: extends from hygiene evaluation to data authorization status",
+        "feeding: extends from feeding metaphor to training input"
+      ]
+    }
+  },
+  {
+    "id": "ai-native-dev",
+    "path": [
+      "root",
+      "ai-agents",
+      "ai-native-dev"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "AI原生开发",
+      "kind": "子领域",
+      "horizon": "1-6年",
+      "gap": "软件生成从写代码转向表达意图、审校结果和治理流程，旧的“开发者、代码、原型”词义被重写。",
+      "lexical": [
+        "意图即代码",
+        "小队开发",
+        "生成债"
+      ]
+    },
+    "en": {
+      "name": "AI-Native Development",
+      "kind": "Subdomain",
+      "horizon": "1-6 years",
+      "gap": "Software generation shifts from writing code to expressing intent, reviewing results and governing processes, and the old semantics of 'developer, code, prototype' are rewritten.",
+      "lexical": [
+        "Intent is Code",
+        "Squad Development",
+        "Generation Debt"
+      ]
+    }
+  },
+  {
+    "id": "intent-code",
+    "path": [
+      "root",
+      "ai-agents",
+      "ai-native-dev",
+      "intent-code"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "意图即代码",
+      "kind": "语义空白",
+      "horizon": "1-4年",
+      "gap": "自然语言需求可直接变成可运行软件，代码的边界向意图层上移。",
+      "lexical": [
+        "代码: 从程序文本扩展为可执行意图",
+        "写: 从手工输入扩展为提示生成",
+        "原型: 从草模扩展为即时可用系统"
+      ]
+    },
+    "en": {
+      "name": "Intent is Code",
+      "kind": "Semantic Gap",
+      "horizon": "1-4 years",
+      "gap": "Natural language requirements can be directly converted into runnable software, and the boundary of code shifts up to the intent layer.",
+      "lexical": [
+        "code: extends from program text to executable intent",
+        "write: extends from manual input to prompt generation",
+        "prototype: extends from rough model to instantly usable system"
+      ]
+    }
+  },
+  {
+    "id": "tiny-teams",
+    "path": [
+      "root",
+      "ai-agents",
+      "ai-native-dev",
+      "tiny-teams"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "小队式开发",
+      "kind": "语义空白",
+      "horizon": "2-6年",
+      "gap": "少数人加一组AI工具完成过去大团队的工作，需要新词描述团队规模和协作身份。",
+      "lexical": [
+        "团队: 从人群扩展为人机组合",
+        "搭子: 从社交伙伴扩展为任务代理",
+        "工位: 从物理座位扩展为数字职能"
+      ]
+    },
+    "en": {
+      "name": "Squad-style development",
+      "kind": "Semantic gap",
+      "horizon": "2-6 years",
+      "gap": "A small number of people plus a set of AI tools can complete work that used to require large teams; new terms are needed to describe team size and collaborative identities.",
+      "lexical": [
+        "team: extends from human group to human-AI combination",
+        "buddy: extends from social partner to task agent",
+        "workstation: extends from physical seat to digital function role"
+      ]
+    }
+  },
+  {
+    "id": "generation-debt",
+    "path": [
+      "root",
+      "ai-agents",
+      "ai-native-dev",
+      "generation-debt"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "生成债",
+      "kind": "语义空白",
+      "horizon": "1-5年",
+      "gap": "AI快速生成的系统可能积累不可见的维护、验证和责任成本。",
+      "lexical": [
+        "债: 从财务负担扩展为生成系统的后续成本",
+        "返工: 从人工修正扩展为模型输出校验",
+        "烂尾: 从项目停滞扩展为无人维护的AI产物"
+      ]
+    },
+    "en": {
+      "name": "Generation debt",
+      "kind": "Semantic gap",
+      "horizon": "1-5 years",
+      "gap": "Systems rapidly generated by AI may accumulate invisible maintenance, verification and liability costs.",
+      "lexical": [
+        "debt: extends from financial burden to follow-up costs of generative systems",
+        "rework: extends from manual correction to model output verification",
+        "unfinished project: extends from stalled project to unmaintained AI output"
+      ]
+    }
+  },
+  {
+    "id": "physical-ai",
+    "path": [
+      "root",
+      "physical-ai"
+    ],
+    "depth": 1,
+    "zh": {
+      "name": "物理AI与机器人世界",
+      "kind": "平行领域",
+      "horizon": "2-10年渐进落地",
+      "gap": "智能进入机器身体、道路、仓库和家庭空间，语言要把“会动的工具”和“可协作的行动体”区分开。",
+      "lexical": [
+        "身体",
+        "工友",
+        "路线礼仪",
+        "场景训练",
+        "机器手感"
+      ]
+    },
+    "en": {
+      "name": "Physical AI and the robotic world",
+      "kind": "Parallel domain",
+      "horizon": "Gradual rollout over 2-10 years",
+      "gap": "Intelligence is entering robotic bodies, roads, warehouses and home spaces; language needs to distinguish between 'movable tools' and 'collaborative actors'.",
+      "lexical": [
+        "body",
+        "workmate",
+        "route etiquette",
+        "scenario training",
+        "machine tactile sense"
+      ]
+    }
+  },
+  {
+    "id": "embodied-models",
+    "path": [
+      "root",
+      "physical-ai",
+      "embodied-models"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "具身模型与通用机器人",
+      "kind": "子领域",
+      "horizon": "2-8年",
+      "gap": "模型拥有传感器和执行器后，理解不再只是语言，旧的“身体、经验、手感”会被技术化。",
+      "lexical": [
+        "机器身体",
+        "世界模型",
+        "触觉语义"
+      ]
+    },
+    "en": {
+      "name": "Embodied Models and General Robots",
+      "kind": "Subfield",
+      "horizon": "2-8 years",
+      "gap": "After models are equipped with sensors and actuators, understanding is no longer limited to language, and the traditional concepts of 'body, experience, and tactile feel' will be technologized.",
+      "lexical": [
+        "Machine Body",
+        "World Model",
+        "Tactile Semantics"
+      ]
+    }
+  },
+  {
+    "id": "machine-body",
+    "path": [
+      "root",
+      "physical-ai",
+      "embodied-models",
+      "machine-body"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "机器身体",
+      "kind": "语义空白",
+      "horizon": "2-7年",
+      "gap": "机器人不只是外壳，而是感知、行动和学习的统一载体。",
+      "lexical": [
+        "身体: 从生物躯体扩展为可行动平台",
+        "身手: 从人的动作能力扩展为机器人灵活度",
+        "体感: 从人类感觉扩展为机器传感反馈"
+      ]
+    },
+    "en": {
+      "name": "Machine Body",
+      "kind": "Semantic Gap",
+      "horizon": "2-7 years",
+      "gap": "A robot is not just a shell, but a unified carrier for perception, action, and learning.",
+      "lexical": [
+        "body: extends from biological organism to actionable platform",
+        "dexterity: extends from human movement ability to robot flexibility",
+        "somatosensory: extends from human sensation to machine sensor feedback"
+      ]
+    }
+  },
+  {
+    "id": "robot-training-ground",
+    "path": [
+      "root",
+      "physical-ai",
+      "embodied-models",
+      "robot-training-ground"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "场景训练",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "机器人需要在模拟和真实场景中积累经验，训练对象从模型扩展到动作。",
+      "lexical": [
+        "训练场: 从运动空间扩展为仿真环境",
+        "练手: 从人类熟练过程扩展为机器人试错",
+        "经验: 从人生经历扩展为轨迹数据"
+      ]
+    },
+    "en": {
+      "name": "Scenario Training",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "Robots need to accumulate experience in simulated and real scenarios, and the training target extends from models to movements.",
+      "lexical": [
+        "training ground: extends from sports space to simulation environment",
+        "practice: extends from human skill acquisition process to robot trial and error",
+        "experience: extends from life experience to trajectory data"
+      ]
+    }
+  },
+  {
+    "id": "tactile-meaning",
+    "path": [
+      "root",
+      "physical-ai",
+      "embodied-models",
+      "tactile-meaning"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "触觉语义",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "抓、按、揉、避让等动作包含物理意义，现有语义分析偏重文本和视觉。",
+      "lexical": [
+        "手感: 从人的触觉评价扩展为机器操作参数",
+        "轻重: 从力度描述扩展为安全策略",
+        "拿捏: 从社交分寸扩展为机器人抓取控制"
+      ]
+    },
+    "en": {
+      "name": "tactile semantics",
+      "kind": "semantic gap",
+      "horizon": "3-10 years",
+      "gap": "Actions such as grasping, pressing, kneading, and avoidance carry physical meaning, while existing semantic analysis focuses heavily on text and vision.",
+      "lexical": [
+        "hand feel: extends from human tactile evaluation to machine operation parameters",
+        "heaviness/lightness: extends from force description to security policy",
+        "handling: extends from social propriety to robot grasping control"
+      ]
+    }
+  },
+  {
+    "id": "drones-low-altitude",
+    "path": [
+      "root",
+      "physical-ai",
+      "drones-low-altitude"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "无人系统与低空经济",
+      "kind": "子领域",
+      "horizon": "1-8年",
+      "gap": "无人车、无人机和自动船进入公共空间，会制造交通礼仪、责任归属和空间命名的新空白。",
+      "lexical": [
+        "空路",
+        "机群礼让",
+        "无人勤务"
+      ]
+    },
+    "en": {
+      "name": "unmanned systems and low-altitude economy",
+      "kind": "subfield",
+      "horizon": "1-8 years",
+      "gap": "As unmanned vehicles, drones and autonomous ships enter public spaces, they will create new gaps in traffic etiquette, liability attribution and spatial naming.",
+      "lexical": [
+        "air route",
+        "drone fleet courtesy",
+        "unmanned service duty"
+      ]
+    }
+  },
+  {
+    "id": "drone-corridor",
+    "path": [
+      "root",
+      "physical-ai",
+      "drones-low-altitude",
+      "drone-corridor"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "低空走廊",
+      "kind": "语义空白",
+      "horizon": "1-6年",
+      "gap": "城市上空从不可见空间变成可规划交通层。",
+      "lexical": [
+        "路: 从地面通道扩展为空中航线",
+        "拥堵: 从道路状态扩展为低空流量",
+        "站点: 从地面设施扩展为起降节点"
+      ]
+    },
+    "en": {
+      "name": "low-altitude corridor",
+      "kind": "semantic gap",
+      "horizon": "1-6 years",
+      "gap": "Urban airspace is transformed from an invisible space into a plannable traffic layer.",
+      "lexical": [
+        "road: extends from ground passage to aerial route",
+        "congestion: extends from road status to low-altitude traffic flow",
+        "station: extends from ground facility to takeoff and landing node"
+      ]
+    }
+  },
+  {
+    "id": "machine-etiquette",
+    "path": [
+      "root",
+      "physical-ai",
+      "drones-low-altitude",
+      "machine-etiquette"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "机器礼仪",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "自动系统与行人、骑手和车辆互动时，需要稳定的让行、提示和道歉表达。",
+      "lexical": [
+        "礼让: 从人类道德行为扩展为自动决策",
+        "示意: 从身体动作扩展为灯光/声音信号",
+        "道歉: 从情感表达扩展为服务补救协议"
+      ]
+    },
+    "en": {
+      "name": "Machine Etiquette",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "When automated systems interact with pedestrians, riders and vehicles, stable yielding, prompting and apology expressions are required.",
+      "lexical": [
+        "comity: extends from human moral behavior to automated decision-making",
+        "signal: extends from body movements to light/sound signals",
+        "apology: extends from emotional expression to service remedy protocols"
+      ]
+    }
+  },
+  {
+    "id": "autonomous-duty",
+    "path": [
+      "root",
+      "physical-ai",
+      "drones-low-altitude",
+      "autonomous-duty"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "无人勤务",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "巡检、配送、清洁等工作由无人系统承担后，工作角色词需要扩展。",
+      "lexical": [
+        "勤务: 从人员值守扩展为自动执行任务",
+        "上岗: 从人到岗扩展为机器上线",
+        "值班: 从轮班制度扩展为系统持续运行"
+      ]
+    },
+    "en": {
+      "name": "Autonomous Duty Performance",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "After tasks such as inspection, delivery and cleaning are undertaken by unmanned systems, job role terms need to be expanded.",
+      "lexical": [
+        "duty performance: extends from on-duty personnel to automated task execution",
+        "go on duty: extends from personnel arriving at post to machine going online",
+        "on duty: extends from shift scheduling system to continuous system operation"
+      ]
+    }
+  },
+  {
+    "id": "flexible-factory",
+    "path": [
+      "root",
+      "physical-ai",
+      "flexible-factory"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "柔性制造与智能工厂",
+      "kind": "子领域",
+      "horizon": "1-7年",
+      "gap": "制造从固定产线转向实时重组的智能网络，旧的“师傅、工位、产线”获得新义。",
+      "lexical": [
+        "数字师傅",
+        "黑灯协作",
+        "自调产线"
+      ]
+    },
+    "en": {
+      "name": "Flexible Manufacturing and Smart Factory",
+      "kind": "Subfield",
+      "horizon": "1-7 years",
+      "gap": "Manufacturing has shifted from fixed production lines to real-time reconfigurable smart networks, and old terms such as 'master craftsman', 'workstation' and 'production line' have acquired new meanings.",
+      "lexical": [
+        "digital master craftsman",
+        "lights-out collaboration",
+        "self-adjusting production line"
+      ]
+    }
+  },
+  {
+    "id": "digital-master",
+    "path": [
+      "root",
+      "physical-ai",
+      "flexible-factory",
+      "digital-master"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "数字师傅",
+      "kind": "语义空白",
+      "horizon": "1-5年",
+      "gap": "专家经验被模型化后，师傅不只指人，也指可传授工艺的系统。",
+      "lexical": [
+        "师傅: 从熟练工人扩展为工艺模型",
+        "带徒: 从师徒制扩展为模型辅助培训",
+        "诀窍: 从经验口传扩展为参数化知识"
+      ]
+    },
+    "en": {
+      "name": "Digital Master",
+      "kind": "Semantic Gap",
+      "horizon": "1-5 years",
+      "gap": "After expert experience is modeled, 'master' no longer refers only to humans, but also to systems that can impart production processes.",
+      "lexical": [
+        "master: extends from skilled worker to process model",
+        "mentoring: extends from master-apprentice system to model-assisted training",
+        "know-how: extends from orally passed experience to parameterized knowledge"
+      ]
+    }
+  },
+  {
+    "id": "dark-factory",
+    "path": [
+      "root",
+      "physical-ai",
+      "flexible-factory",
+      "dark-factory"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "黑灯协作",
+      "kind": "语义空白",
+      "horizon": "2-7年",
+      "gap": "无人工厂中“工作现场”不再以人的视觉和作息为中心。",
+      "lexical": [
+        "黑灯: 从无照明状态扩展为无人化生产",
+        "现场: 从人在场扩展为传感器在场",
+        "巡检: 从人工查看扩展为自动感知"
+      ]
+    },
+    "en": {
+      "name": "Lights-Out Collaboration",
+      "kind": "Semantic Gap",
+      "horizon": "2-7 years",
+      "gap": "In unmanned factories, the 'work site' is no longer centered on human vision and work schedules.",
+      "lexical": [
+        "lights-out: extends from unlit state to unmanned production",
+        "site: extends from human presence to sensor presence",
+        "inspection: extends from manual checking to automatic sensing"
+      ]
+    }
+  },
+  {
+    "id": "self-tuning-line",
+    "path": [
+      "root",
+      "physical-ai",
+      "flexible-factory",
+      "self-tuning-line"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "自调产线",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "产线根据订单、能耗和设备状态自动重排，缺少描述动态制造语法的词。",
+      "lexical": [
+        "产线: 从固定流程扩展为可重组网络",
+        "排产: 从计划表扩展为实时算法",
+        "换线: 从人工改造扩展为软件重配"
+      ]
+    },
+    "en": {
+      "name": "Self-Tuning Production Line",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "Production lines automatically rearrange based on orders, energy consumption and equipment status, and there is a lack of terms describing dynamic manufacturing syntax.",
+      "lexical": [
+        "production line: extends from fixed process to reconfigurable network",
+        "production scheduling: extends from planning table to real-time algorithm",
+        "line changeover: extends from manual modification to software reconfiguration"
+      ]
+    }
+  },
+  {
+    "id": "edge-interface",
+    "path": [
+      "root",
+      "edge-interface"
+    ],
+    "depth": 1,
+    "zh": {
+      "name": "边缘计算与个人智能界面",
+      "kind": "平行领域",
+      "horizon": "1-8年快速试验",
+      "gap": "计算从云端回到身体附近和环境之中，界面不再只是一块屏幕，旧词要扩展到耳机、眼镜、车舱和房间。",
+      "lexical": [
+        "本地大脑",
+        "第二感官",
+        "空间桌面",
+        "环境界面"
+      ]
+    },
+    "en": {
+      "name": "Edge Computing and Personal Smart Interface",
+      "kind": "Parallel Domain",
+      "horizon": "1-8 years of rapid experimentation",
+      "gap": "Computing shifts from the cloud to areas close to the human body and the surrounding environment. Interfaces are no longer limited to a single screen, and the scope of relevant old terms needs to be extended to cover headphones, smart glasses, vehicle cabins and rooms.",
+      "lexical": [
+        "Local Brain",
+        "Second Sense",
+        "Spatial Desktop",
+        "Ambient Interface"
+      ]
+    }
+  },
+  {
+    "id": "edge-ai",
+    "path": [
+      "root",
+      "edge-interface",
+      "edge-ai"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "端侧AI",
+      "kind": "子领域",
+      "horizon": "1-5年",
+      "gap": "智能在手机、传感器和设备本地运行，形成隐私、延迟和离线能力的新表达需求。",
+      "lexical": [
+        "端脑",
+        "离线智能",
+        "口袋模型"
+      ]
+    },
+    "en": {
+      "name": "On-Device AI",
+      "kind": "Sub-domain",
+      "horizon": "1-5 years",
+      "gap": "Intelligence runs locally on mobile phones, sensors and devices, creating new expression demands for privacy, low latency and offline capability.",
+      "lexical": [
+        "On-Device Brain",
+        "Offline Intelligence",
+        "Pocket Model"
+      ]
+    }
+  },
+  {
+    "id": "local-brain",
+    "path": [
+      "root",
+      "edge-interface",
+      "edge-ai",
+      "local-brain"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "本地大脑",
+      "kind": "语义空白",
+      "horizon": "1-4年",
+      "gap": "设备拥有可独立推理的智能，不再把一切发到云端。",
+      "lexical": [
+        "大脑: 从生物器官扩展为设备推理核心",
+        "本地: 从位置属性扩展为隐私架构",
+        "离线: 从断网状态扩展为自治能力"
+      ]
+    },
+    "en": {
+      "name": "Local Brain",
+      "kind": "Semantic Gap",
+      "horizon": "1-4 years",
+      "gap": "Devices are equipped with independently reasoning intelligence, no longer sending all data to the cloud for processing.",
+      "lexical": [
+        "brain: extends from biological organ to device reasoning core",
+        "local: extends from location attribute to privacy architecture",
+        "offline: extends from disconnected network state to autonomous capability"
+      ]
+    }
+  },
+  {
+    "id": "latency-persona",
+    "path": [
+      "root",
+      "edge-interface",
+      "edge-ai",
+      "latency-persona"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "低延迟人格",
+      "kind": "语义空白",
+      "horizon": "2-5年",
+      "gap": "语音助手如果即时响应，会显得更像在场对象，速度改变社会感知。",
+      "lexical": [
+        "在场: 从物理同处扩展为实时响应感",
+        "脾气: 从人格特征扩展为交互风格",
+        "迟钝: 从认知评价扩展为系统延迟评价"
+      ]
+    },
+    "en": {
+      "name": "Low Latency Persona",
+      "kind": "Semantic Gap",
+      "horizon": "2-5 years",
+      "gap": "If a voice assistant responds instantly, it will feel more like a present entity; speed alters social perception.",
+      "lexical": [
+        "presence: extends from physical co-location to sense of real-time response",
+        "temper: extends from personality trait to interaction style",
+        "sluggishness: extends from cognitive evaluation to system latency assessment"
+      ]
+    }
+  },
+  {
+    "id": "private-inference",
+    "path": [
+      "root",
+      "edge-interface",
+      "edge-ai",
+      "private-inference"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "私密推理",
+      "kind": "语义空白",
+      "horizon": "1-5年",
+      "gap": "推理发生在本地时，数据保护从传输安全转向过程可见性。",
+      "lexical": [
+        "私密: 从内容属性扩展为计算位置属性",
+        "不出端: 从空间表达扩展为数据治理承诺",
+        "可见: 从视觉状态扩展为审计透明度"
+      ]
+    },
+    "en": {
+      "name": "Private Inference",
+      "kind": "Semantic Gap",
+      "horizon": "1-5 years",
+      "gap": "When inference runs locally, data protection shifts from transmission security to process visibility.",
+      "lexical": [
+        "privacy: extends from content attribute to computing location attribute",
+        "no data leaving the device: extends from spatial expression to data governance commitment",
+        "visibility: extends from visual state to audit transparency"
+      ]
+    }
+  },
+  {
+    "id": "wearables",
+    "path": [
+      "root",
+      "edge-interface",
+      "wearables"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "可穿戴与环境感知",
+      "kind": "子领域",
+      "horizon": "1-8年",
+      "gap": "AI进入眼镜、耳机、戒指、衣物和房间，需要描述持续感知、提醒和陪伴的微型词义。",
+      "lexical": [
+        "第二感官",
+        "耳边助理",
+        "环境记忆"
+      ]
+    },
+    "en": {
+      "name": "Wearables and Environmental Perception",
+      "kind": "Sub-domain",
+      "horizon": "1-8 years",
+      "gap": "AI is integrated into glasses, earphones, rings, clothing and rooms, requiring new micro lexical meanings to describe continuous perception, reminders and companionship.",
+      "lexical": [
+        "Second Sense",
+        "Ear-side Assistant",
+        "Environmental Memory"
+      ]
+    }
+  },
+  {
+    "id": "second-sense",
+    "path": [
+      "root",
+      "edge-interface",
+      "wearables",
+      "second-sense"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "第二感官",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "设备补充人的听觉、视觉、位置和生理感知。",
+      "lexical": [
+        "感官: 从人体能力扩展为外接感知系统",
+        "看见: 从视觉行为扩展为算法识别",
+        "听懂: 从人类理解扩展为环境音解析"
+      ]
+    },
+    "en": {
+      "name": "Second Sense",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "Devices supplement human auditory, visual, positional and physiological perception.",
+      "lexical": [
+        "sense: extends from human body capability to external perception system",
+        "see: extends from visual behavior to algorithmic recognition",
+        "understand speech: extends from human comprehension to ambient sound analysis"
+      ]
+    }
+  },
+  {
+    "id": "ambient-memory",
+    "path": [
+      "root",
+      "edge-interface",
+      "wearables",
+      "ambient-memory"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "环境记忆",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "房间、车舱或办公室能记住人的习惯和历史交互。",
+      "lexical": [
+        "记忆: 从心理能力扩展为空间记录",
+        "熟悉: 从人的经验扩展为环境个性化",
+        "忘记: 从认知丧失扩展为数据删除"
+      ]
+    },
+    "en": {
+      "name": "Ambient Memory",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "Rooms, cabins or offices can remember human habits and historical interactions.",
+      "lexical": [
+        "memory: extends from psychological capability to spatial recording",
+        "familiar: extends from human experience to environmental personalization",
+        "forget: extends from cognitive loss to data deletion"
+      ]
+    }
+  },
+  {
+    "id": "micro-reminder",
+    "path": [
+      "root",
+      "edge-interface",
+      "wearables",
+      "micro-reminder"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "微提醒",
+      "kind": "语义空白",
+      "horizon": "1-6年",
+      "gap": "持续佩戴设备带来低打扰提示，介于通知、建议和干预之间。",
+      "lexical": [
+        "提醒: 从显性告知扩展为轻触式干预",
+        "打扰: 从社交评价扩展为交互负担",
+        "贴心: 从情感评价扩展为时机准确性"
+      ]
+    },
+    "en": {
+      "name": "Micro Reminder",
+      "kind": "Semantic Gap",
+      "horizon": "1-6 years",
+      "gap": "Continuously worn devices provide low-interruption prompts, which fall between notifications, suggestions and interventions.",
+      "lexical": [
+        "reminder: extends from explicit notification to tap-style intervention",
+        "disturb: extends from social evaluation to interaction burden",
+        "thoughtful: extends from emotional evaluation to timing accuracy"
+      ]
+    }
+  },
+  {
+    "id": "spatial-computing",
+    "path": [
+      "root",
+      "edge-interface",
+      "spatial-computing"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "空间计算",
+      "kind": "子领域",
+      "horizon": "2-10年",
+      "gap": "数字信息叠加到真实空间，界面词汇从平面窗口迁移到地点、物体和动作。",
+      "lexical": [
+        "空间桌面",
+        "混合注释",
+        "场景图层"
+      ]
+    },
+    "en": {
+      "name": "Spatial Computing",
+      "kind": "Sub-field",
+      "horizon": "2-10 years",
+      "gap": "Digital information is superimposed onto real space, and interface vocabulary migrates from flat windows to locations, objects and actions.",
+      "lexical": [
+        "Spatial Desktop",
+        "Mixed Annotation",
+        "Scene Layer"
+      ]
+    }
+  },
+  {
+    "id": "spatial-desktop",
+    "path": [
+      "root",
+      "edge-interface",
+      "spatial-computing",
+      "spatial-desktop"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "空间桌面",
+      "kind": "语义空白",
+      "horizon": "2-7年",
+      "gap": "文件和应用不只在屏幕内，而是固定在房间、桌面或设备周围。",
+      "lexical": [
+        "桌面: 从屏幕隐喻扩展为真实空间布置",
+        "窗口: 从二维框扩展为空间视野",
+        "摆放: 从物品动作扩展为信息布局"
+      ]
+    },
+    "en": {
+      "name": "Spatial Desktop",
+      "kind": "Semantic Gap",
+      "horizon": "2-7 years",
+      "gap": "Files and applications are not confined within the screen, but are fixed around rooms, desktops or devices.",
+      "lexical": [
+        "desktop: extends from screen metaphor to real space arrangement",
+        "window: extends from 2D frame to spatial field of view",
+        "placement: extends from physical object operation to information layout"
+      ]
+    }
+  },
+  {
+    "id": "mixed-annotation",
+    "path": [
+      "root",
+      "edge-interface",
+      "spatial-computing",
+      "mixed-annotation"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "混合注释",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "在现实物体上叠加说明、警告、历史和协作痕迹。",
+      "lexical": [
+        "注释: 从文本旁批扩展为空间标记",
+        "贴: 从物理附着扩展为AR叠加",
+        "标注: 从图文处理扩展为环境信息层"
+      ]
+    },
+    "en": {
+      "name": "Mixed Annotation",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "Instructions, warnings, historical records and collaboration traces are superimposed on real-world objects.",
+      "lexical": [
+        "annotation: extends from text side note to spatial marker",
+        "paste: extends from physical attachment to AR overlay",
+        "markup: extends from image-text processing to environmental information layer"
+      ]
+    }
+  },
+  {
+    "id": "place-memory",
+    "path": [
+      "root",
+      "edge-interface",
+      "spatial-computing",
+      "place-memory"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "地点记忆",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "地点成为数据索引，人的记忆和空间计算共同组织经验。",
+      "lexical": [
+        "地点: 从地理位置扩展为信息容器",
+        "回放: 从媒体播放扩展为空间事件再现",
+        "到场: 从身体抵达扩展为沉浸访问"
+      ]
+    },
+    "en": {
+      "name": "Place Memory",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Places become data indexes, and human memory and spatial computing jointly organize experiences.",
+      "lexical": [
+        "place: extends from geographic location to information container",
+        "playback: extends from media playback to spatial event reproduction",
+        "presence: extends from physical arrival to immersive access"
+      ]
+    }
+  },
+  {
+    "id": "bio-health",
+    "path": [
+      "root",
+      "bio-health"
+    ],
+    "depth": 1,
+    "zh": {
+      "name": "生命健康与生物工程",
+      "kind": "平行领域",
+      "horizon": "2-10年稳步深化",
+      "gap": "身体、药物、细胞和农作物逐渐被建模、设计和制造，日常生命词汇与工程词汇会互相迁移。",
+      "lexical": [
+        "分子草稿",
+        "身体账本",
+        "细胞工厂",
+        "可试算治疗"
+      ]
+    },
+    "en": {
+      "name": "Life Health and Bioengineering",
+      "kind": "Parallel Field",
+      "horizon": "Steady deepening in 2-10 years",
+      "gap": "Bodies, drugs, cells and crops are gradually modeled, designed and manufactured, and daily life vocabulary and engineering vocabulary will migrate to each other.",
+      "lexical": [
+        "molecular draft",
+        "body ledger",
+        "cell factory",
+        "calculable treatment"
+      ]
+    }
+  },
+  {
+    "id": "ai-drug",
+    "path": [
+      "root",
+      "bio-health",
+      "ai-drug"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "AI制药与蛋白设计",
+      "kind": "子领域",
+      "horizon": "2-8年",
+      "gap": "药物发现从筛选转向生成与验证闭环，旧的“候选、设计、草稿”获得生命科学新义。",
+      "lexical": [
+        "分子草稿",
+        "湿实验闭环",
+        "候选药"
+      ]
+    },
+    "en": {
+      "name": "AI Pharmaceutical and Protein Design",
+      "kind": "Sub-field",
+      "horizon": "2-8 years",
+      "gap": "Drug discovery shifts from screening to a closed loop of generation and verification, and old terms such as 'candidate, design, draft' gain new meanings in life sciences.",
+      "lexical": [
+        "molecular draft",
+        "wet experiment closed loop",
+        "drug candidate"
+      ]
+    }
+  },
+  {
+    "id": "molecular-draft",
+    "path": [
+      "root",
+      "bio-health",
+      "ai-drug",
+      "molecular-draft"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "分子草稿",
+      "kind": "语义空白",
+      "horizon": "2-7年",
+      "gap": "模型生成的分子结构类似文本草稿，可修改、评分和迭代。",
+      "lexical": [
+        "草稿: 从文本初稿扩展为分子方案",
+        "生成: 从内容生产扩展为药物设计",
+        "润色: 从语言加工扩展为结构优化"
+      ]
+    },
+    "en": {
+      "name": "Molecular Draft",
+      "kind": "Semantic Gap",
+      "horizon": "2-7 years",
+      "gap": "Model-generated molecular structures are similar to text drafts, which can be modified, scored and iterated.",
+      "lexical": [
+        "draft: extends from text preliminary draft to molecular scheme",
+        "generation: extends from content production to drug design",
+        "polishing: extends from language processing to structural optimization"
+      ]
+    }
+  },
+  {
+    "id": "wet-loop",
+    "path": [
+      "root",
+      "bio-health",
+      "ai-drug",
+      "wet-loop"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "湿实验闭环",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "实验室结果实时反馈给模型，形成计算和实验的循环。",
+      "lexical": [
+        "闭环: 从控制系统扩展为AI实验流程",
+        "湿: 从物质状态扩展为实体实验",
+        "反馈: 从评价信息扩展为模型训练信号"
+      ]
+    },
+    "en": {
+      "name": "Wet Lab Closed Loop",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "Laboratory results are fed back to the model in real time, forming a cycle of computation and experimentation.",
+      "lexical": [
+        "closed loop: extends from control system to AI experiment workflow",
+        "wet: extends from material state to physical experiment",
+        "feedback: extends from evaluation information to model training signal"
+      ]
+    }
+  },
+  {
+    "id": "candidate-status",
+    "path": [
+      "root",
+      "bio-health",
+      "ai-drug",
+      "candidate-status"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "候选状态",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "大量AI生成方案介于想法、样品和药物之间，需要更细粒度状态词。",
+      "lexical": [
+        "候选: 从备选对象扩展为算法生成实体",
+        "命中: 从射中目标扩展为药物活性发现",
+        "淘汰: 从选择结果扩展为模型筛除"
+      ]
+    },
+    "en": {
+      "name": "Candidate Status",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "A large number of AI-generated schemes fall between ideas, samples and drugs, requiring more fine-grained status terms.",
+      "lexical": [
+        "candidate: extends from alternative object to algorithm-generated entity",
+        "hit: extends from hitting a target to drug activity discovery",
+        "elimination: extends from selection result to model screening elimination"
+      ]
+    }
+  },
+  {
+    "id": "personal-health",
+    "path": [
+      "root",
+      "bio-health",
+      "personal-health"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "个体化医疗与数字孪生",
+      "kind": "子领域",
+      "horizon": "2-10年",
+      "gap": "个人身体可被持续监测、预测和模拟，医疗词汇从诊断当下扩展到风险未来。",
+      "lexical": [
+        "身体账本",
+        "预测病程",
+        "治疗试算"
+      ]
+    },
+    "en": {
+      "name": "Personalized Medicine and Digital Twin",
+      "kind": "Sub-field",
+      "horizon": "2-10 years",
+      "gap": "Individual physical conditions can be continuously monitored, predicted and simulated, and medical vocabulary extends from diagnosing current conditions to assessing future risks.",
+      "lexical": [
+        "Body Ledger",
+        "Predictive Disease Course",
+        "Treatment Trial Calculation"
+      ]
+    }
+  },
+  {
+    "id": "body-ledger",
+    "path": [
+      "root",
+      "bio-health",
+      "personal-health",
+      "body-ledger"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "身体账本",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "健康数据像账本一样长期记录、对账和授权。",
+      "lexical": [
+        "账本: 从财务记录扩展为健康数据史",
+        "对账: 从财务核验扩展为多源健康数据校准",
+        "余额: 从金钱余量扩展为健康储备隐喻"
+      ]
+    },
+    "en": {
+      "name": "Body Ledger",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "Health data is long-term recorded, reconciled and authorized like a ledger.",
+      "lexical": [
+        "ledger: extends from financial record to health data history",
+        "reconciliation: extends from financial verification to multi-source health data calibration",
+        "balance: extends from remaining money to a metaphor for health reserve"
+      ]
+    }
+  },
+  {
+    "id": "predictive-course",
+    "path": [
+      "root",
+      "bio-health",
+      "personal-health",
+      "predictive-course"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "预测病程",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "疾病被模拟为多个可能路径，诊疗语言需要表达概率性的身体未来。",
+      "lexical": [
+        "病程: 从已发生过程扩展为预测轨迹",
+        "预演: 从演练扩展为治疗模拟",
+        "岔路: 从道路隐喻扩展为病情分支"
+      ]
+    },
+    "en": {
+      "name": "Predictive Disease Course",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Diseases are simulated as multiple possible paths, and diagnosis and treatment language needs to express the probabilistic future of the body.",
+      "lexical": [
+        "disease course: extends from already occurred process to predicted trajectory",
+        "rehearsal: extends from drill to treatment simulation",
+        "fork in the road: extends from road metaphor to disease condition branch"
+      ]
+    }
+  },
+  {
+    "id": "treatment-simulation",
+    "path": [
+      "root",
+      "bio-health",
+      "personal-health",
+      "treatment-simulation"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "治疗试算",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "治疗方案先在数字孪生上试算，介于建议和真实干预之间。",
+      "lexical": [
+        "试算: 从财务计算扩展为医疗模拟",
+        "孪生: 从血缘关系扩展为身体模型",
+        "方案: 从计划文本扩展为可运行模拟"
+      ]
+    },
+    "en": {
+      "name": "Treatment Trial Calculation",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Treatment plans are first tested on digital twins, falling between recommendations and actual interventions.",
+      "lexical": [
+        "word: 试算 extends from financial calculation to medical simulation",
+        "word: 孪生 extends from blood relationship to body model",
+        "word: 方案 extends from planned text to runnable simulation"
+      ]
+    }
+  },
+  {
+    "id": "synthetic-bio",
+    "path": [
+      "root",
+      "bio-health",
+      "synthetic-bio"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "合成生物与农业生物制造",
+      "kind": "子领域",
+      "horizon": "3-10年",
+      "gap": "细胞和作物被设计为生产平台，制造词汇和生命词汇发生双向扩展。",
+      "lexical": [
+        "细胞工厂",
+        "生物铸造",
+        "可编程作物"
+      ]
+    },
+    "en": {
+      "name": "Synthetic Biology and Agricultural Biomanufacturing",
+      "kind": "Subfield",
+      "horizon": "3-10 years",
+      "gap": "Cells and crops are designed as production platforms, leading to bidirectional expansion of manufacturing and life-related vocabulary.",
+      "lexical": [
+        "Cell Factory",
+        "Biological Foundry",
+        "Programmable Crop"
+      ]
+    }
+  },
+  {
+    "id": "cell-factory",
+    "path": [
+      "root",
+      "bio-health",
+      "synthetic-bio",
+      "cell-factory"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "细胞工厂",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "细胞承担生产材料、药物或食品成分的功能。",
+      "lexical": [
+        "工厂: 从工业场所扩展为细胞生产系统",
+        "产线: 从机械流程扩展为代谢路径",
+        "产能: 从设备能力扩展为生物合成效率"
+      ]
+    },
+    "en": {
+      "name": "Cell Factory",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Cells perform the function of producing materials, pharmaceuticals or food ingredients.",
+      "lexical": [
+        "word: 工厂 extends from industrial site to cellular production system",
+        "word: 产线 extends from mechanical process to metabolic pathway",
+        "word: 产能 extends from equipment capacity to biosynthetic efficiency"
+      ]
+    }
+  },
+  {
+    "id": "bio-foundry",
+    "path": [
+      "root",
+      "bio-health",
+      "synthetic-bio",
+      "bio-foundry"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "生物铸造",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "生物系统像材料和器件一样可设计、测试、迭代。",
+      "lexical": [
+        "铸造: 从金属加工扩展为生命系统构建",
+        "模块: 从工程部件扩展为基因线路",
+        "调参: 从软件优化扩展为生物表达调控"
+      ]
+    },
+    "en": {
+      "name": "Biological Foundry",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Biological systems can be designed, tested and iterated like materials and devices.",
+      "lexical": [
+        "foundry: extends from metal processing to biological system construction",
+        "module: extends from engineering components to genetic circuits",
+        "parameter tuning: extends from software optimization to biological expression regulation"
+      ]
+    }
+  },
+  {
+    "id": "programmable-crop",
+    "path": [
+      "root",
+      "bio-health",
+      "synthetic-bio",
+      "programmable-crop"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "可编程作物",
+      "kind": "语义空白",
+      "horizon": "4-10年",
+      "gap": "作物性状可按气候、营养和供应链需求设计。",
+      "lexical": [
+        "编程: 从软件写作扩展为性状设计",
+        "耐受: 从生物特征扩展为气候适应能力",
+        "订制: 从商品生产扩展为农艺设计"
+      ]
+    },
+    "en": {
+      "name": "Programmable Crop",
+      "kind": "Semantic Gap",
+      "horizon": "4-10 years",
+      "gap": "Crop traits can be designed according to climate, nutrition and supply chain demands.",
+      "lexical": [
+        "programming: extends from software writing to trait design",
+        "tolerance: extends from biological characteristics to climate adaptability",
+        "customization: extends from commodity production to agronomic design"
+      ]
+    }
+  },
+  {
+    "id": "energy-climate",
+    "path": [
+      "root",
+      "energy-climate"
+    ],
+    "depth": 1,
+    "zh": {
+      "name": "能源气候与可持续系统",
+      "kind": "平行领域",
+      "horizon": "1-10年政策与技术共振",
+      "gap": "气候风险、能源调度和材料循环进入日常管理，旧的“负、绿、韧性、护照”等词会形成新专业义。",
+      "lexical": [
+        "虚拟电厂",
+        "碳感知",
+        "材料护照",
+        "热风险语言"
+      ]
+    },
+    "en": {
+      "name": "Energy, Climate and Sustainable Systems",
+      "kind": "Parallel Domain",
+      "horizon": "1-10 years of policy and technology resonance",
+      "gap": "Climate risk, energy dispatch and material circulation are integrated into daily management, and existing terms such as 'negative, green, resilience, passport' will take on new specialized meanings.",
+      "lexical": [
+        "virtual power plant",
+        "carbon awareness",
+        "material passport",
+        "heat risk language"
+      ]
+    }
+  },
+  {
+    "id": "smart-grid",
+    "path": [
+      "root",
+      "energy-climate",
+      "smart-grid"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "AI电网与储能",
+      "kind": "子领域",
+      "horizon": "1-8年",
+      "gap": "用电从被动消费转为可调度资源，家庭、工厂和车辆都可能成为电网节点。",
+      "lexical": [
+        "弹性负荷",
+        "虚拟电厂",
+        "碳感知调度"
+      ]
+    },
+    "en": {
+      "name": "AI Power Grid and Energy Storage",
+      "kind": "Subfield",
+      "horizon": "1-8 years",
+      "gap": "Electricity consumption extends from passive consumption to dispatchable resources, and households, factories and vehicles can all become grid nodes.",
+      "lexical": [
+        "Flexible Load",
+        "Virtual Power Plant",
+        "Carbon-Aware Scheduling"
+      ]
+    }
+  },
+  {
+    "id": "flexible-load",
+    "path": [
+      "root",
+      "energy-climate",
+      "smart-grid",
+      "flexible-load"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "弹性负荷",
+      "kind": "语义空白",
+      "horizon": "1-6年",
+      "gap": "用电行为可根据价格、碳排和电网压力自动调整。",
+      "lexical": [
+        "负荷: 从电力需求扩展为可交易灵活性",
+        "弹性: 从物理性质扩展为调度能力",
+        "削峰: 从工程术语扩展为家庭行为"
+      ]
+    },
+    "en": {
+      "name": "Flexible Load",
+      "kind": "Semantic Gap",
+      "horizon": "1-6 years",
+      "gap": "Electricity consumption behavior can be automatically adjusted based on price, carbon emissions and grid pressure.",
+      "lexical": [
+        "load: extends from electricity demand to tradable flexibility",
+        "flexibility: extends from physical property to dispatch capability",
+        "peak shaving: extends from engineering term to household behavior"
+      ]
+    }
+  },
+  {
+    "id": "virtual-power-plant",
+    "path": [
+      "root",
+      "energy-climate",
+      "smart-grid",
+      "virtual-power-plant"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "虚拟电厂",
+      "kind": "语义空白",
+      "horizon": "1-7年",
+      "gap": "分散的电池、车辆和屋顶光伏被聚合成可调度能力。",
+      "lexical": [
+        "电厂: 从集中设施扩展为分布式集合",
+        "聚合: 从集合动作扩展为能源市场角色",
+        "入网: 从接入网络扩展为参与电力交易"
+      ]
+    },
+    "en": {
+      "name": "Virtual Power Plant",
+      "kind": "Semantic Gap",
+      "horizon": "1-7 years",
+      "gap": "Decentralized batteries, vehicles and rooftop photovoltaics are aggregated into dispatchable capacity.",
+      "lexical": [
+        "power plant: extends from centralized facility to distributed collection",
+        "aggregation: extends from collection action to energy market role",
+        "grid connection: extends from accessing the network to participating in electricity trading"
+      ]
+    }
+  },
+  {
+    "id": "carbon-aware",
+    "path": [
+      "root",
+      "energy-climate",
+      "smart-grid",
+      "carbon-aware"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "碳感知调度",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "计算、生产和消费按电力碳强度改变时间和地点。",
+      "lexical": [
+        "感知: 从感觉能力扩展为碳信号响应",
+        "清洁时段: 从卫生评价扩展为低碳电力窗口",
+        "搬家: 从住址变化扩展为算力迁移"
+      ]
+    },
+    "en": {
+      "name": "carbon-aware scheduling",
+      "kind": "semantic gap",
+      "horizon": "1-8 years",
+      "gap": "Computing, production and consumption adjust their time and location based on the carbon intensity of electricity.",
+      "lexical": [
+        "perception: extends from sensory ability to carbon signal response",
+        "clean period: extends from hygiene evaluation to low-carbon power window",
+        "moving: extends from residential address change to computing power migration"
+      ]
+    }
+  },
+  {
+    "id": "circular-carbon",
+    "path": [
+      "root",
+      "energy-climate",
+      "circular-carbon"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "碳移除与循环材料",
+      "kind": "子领域",
+      "horizon": "2-10年",
+      "gap": "废物、材料和碳不再只是排放或垃圾，而是可追踪、可再利用、可认证的资源。",
+      "lexical": [
+        "负排放",
+        "材料护照",
+        "废物矿山"
+      ]
+    },
+    "en": {
+      "name": "carbon removal and circular materials",
+      "kind": "sub-field",
+      "horizon": "2-10 years",
+      "gap": "Waste, materials and carbon are no longer just emissions or garbage, but traceable, reusable and certifiable resources.",
+      "lexical": [
+        "negative emission",
+        "material passport",
+        "waste mine"
+      ]
+    }
+  },
+  {
+    "id": "negative-emission",
+    "path": [
+      "root",
+      "energy-climate",
+      "circular-carbon",
+      "negative-emission"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "负排放",
+      "kind": "语义空白",
+      "horizon": "2-10年",
+      "gap": "排放的方向从增加转为移除，日常“负”带上气候价值。",
+      "lexical": [
+        "负: 从数量小于零扩展为气候补偿",
+        "移除: 从拿走物体扩展为碳管理",
+        "封存: 从保存物品扩展为长期储碳"
+      ]
+    },
+    "en": {
+      "name": "negative emission",
+      "kind": "semantic gap",
+      "horizon": "2-10 years",
+      "gap": "The direction of emissions shifts from increase to removal, and the daily meaning of 'negative' carries climate value.",
+      "lexical": [
+        "negative: extends from being less than zero in quantity to climate compensation",
+        "removal: extends from taking objects away to carbon management",
+        "sequestration: extends from storing items to long-term carbon storage"
+      ]
+    }
+  },
+  {
+    "id": "material-passport",
+    "path": [
+      "root",
+      "energy-climate",
+      "circular-carbon",
+      "material-passport"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "材料护照",
+      "kind": "语义空白",
+      "horizon": "2-9年",
+      "gap": "材料的来源、成分、碳足迹和回收路径需要像身份信息一样被记录。",
+      "lexical": [
+        "护照: 从人的跨境证件扩展为材料身份",
+        "足迹: 从脚印扩展为环境影响链",
+        "履历: 从人的经历扩展为物质流转史"
+      ]
+    },
+    "en": {
+      "name": "Material Passport",
+      "kind": "Semantic Gap",
+      "horizon": "2-9 years",
+      "gap": "The source, composition, carbon footprint and recycling path of materials need to be recorded like identity information.",
+      "lexical": [
+        "passport: extends from cross-border identity document for people to material identity",
+        "footprint: extends from footprints to environmental impact chain",
+        "resume: extends from personal experience to material circulation history"
+      ]
+    }
+  },
+  {
+    "id": "waste-mine",
+    "path": [
+      "root",
+      "energy-climate",
+      "circular-carbon",
+      "waste-mine"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "废物矿山",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "城市废弃物成为可开采资源，垃圾词汇开始资源化。",
+      "lexical": [
+        "矿山: 从自然矿藏扩展为城市废物库",
+        "开采: 从地下资源扩展为回收利用",
+        "垃圾: 从无用物扩展为待分选资产"
+      ]
+    },
+    "en": {
+      "name": "Waste Mine",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Urban waste has become exploitable resources, and waste-related terms start to be associated with resource recovery.",
+      "lexical": [
+        "mine: extends from natural mineral deposits to urban waste repositories",
+        "mining: extends from exploiting underground resources to recycling and utilization",
+        "garbage: extends from useless items to unsorted assets to be processed"
+      ]
+    }
+  },
+  {
+    "id": "climate-adaptation",
+    "path": [
+      "root",
+      "energy-climate",
+      "climate-adaptation"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "气候适应与极端天气",
+      "kind": "子领域",
+      "horizon": "1-10年",
+      "gap": "高温、洪水、迁移和保险将进入城市日常决策，需要更细的风险词汇。",
+      "lexical": [
+        "韧性城市",
+        "热风险语言",
+        "迁移保险"
+      ]
+    },
+    "en": {
+      "name": "Climate Adaptation and Extreme Weather",
+      "kind": "Subfield",
+      "horizon": "1-10 years",
+      "gap": "High temperature, floods, migration and insurance will be incorporated into daily urban decision-making, requiring more granular risk-related vocabulary.",
+      "lexical": [
+        "Resilient City",
+        "Heat Risk Language",
+        "Migration Insurance"
+      ]
+    }
+  },
+  {
+    "id": "resilient-city",
+    "path": [
+      "root",
+      "energy-climate",
+      "climate-adaptation",
+      "resilient-city"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "韧性城市",
+      "kind": "语义空白",
+      "horizon": "1-10年",
+      "gap": "城市能力从建设规模转向承受冲击和快速恢复。",
+      "lexical": [
+        "韧性: 从材料性质扩展为城市治理能力",
+        "恢复: 从健康状态扩展为基础设施回弹",
+        "缓冲: 从物理减震扩展为社会保护机制"
+      ]
+    },
+    "en": {
+      "name": "Resilient City",
+      "kind": "Semantic Gap",
+      "horizon": "1-10 years",
+      "gap": "Urban capacity shifts from construction scale to shock resistance and rapid recovery.",
+      "lexical": [
+        "resilience: extends from material property to urban governance capacity",
+        "recovery: extends from health status to infrastructure resilience",
+        "buffering: extends from physical shock absorption to social protection mechanism"
+      ]
+    }
+  },
+  {
+    "id": "heat-language",
+    "path": [
+      "root",
+      "energy-climate",
+      "climate-adaptation",
+      "heat-language"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "热风险语言",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "极端高温影响劳动、健康和城市管理，热不只是天气感受。",
+      "lexical": [
+        "热: 从体感扩展为公共安全风险",
+        "暴露: 从显露扩展为气候风险处境",
+        "避暑: 从生活习惯扩展为劳动保护策略"
+      ]
+    },
+    "en": {
+      "name": "Heat Risk Language",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "Extreme heat affects labor, health and urban management; heat is more than just a sensory experience of weather.",
+      "lexical": [
+        "heat: extends from somatosensory perception to public safety risk",
+        "exposure: extends from being revealed to climate risk situation",
+        "summer heat avoidance: extends from living habit to labor protection strategy"
+      ]
+    }
+  },
+  {
+    "id": "climate-migration-insurance",
+    "path": [
+      "root",
+      "energy-climate",
+      "climate-adaptation",
+      "climate-migration-insurance"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "迁移保险",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "气候导致的搬迁、财产损失和区域风险需要新的保障表达。",
+      "lexical": [
+        "迁移: 从主动流动扩展为气候适应行为",
+        "保险: 从损失赔付扩展为迁居支持",
+        "安置: 从灾后安排扩展为长期适应规划"
+      ]
+    },
+    "en": {
+      "name": "Climate Migration Insurance",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Climate-induced relocation, property losses and regional risks require new security expression frameworks.",
+      "lexical": [
+        "migration: extends from voluntary mobility to climate adaptation behavior",
+        "insurance: extends from loss compensation to relocation support",
+        "resettlement: extends from post-disaster arrangement to long-term adaptation planning"
+      ]
+    }
+  },
+  {
+    "id": "trust-security",
+    "path": [
+      "root",
+      "trust-security"
+    ],
+    "depth": 1,
+    "zh": {
+      "name": "可信安全与数字来源",
+      "kind": "平行领域",
+      "horizon": "1-10年持续增强",
+      "gap": "生成内容、AI代理和跨境数据流使“真假、来源、责任、可见”成为基础语义问题。",
+      "lexical": [
+        "数字来历",
+        "AI安全平台",
+        "可用不可见",
+        "越权代理"
+      ]
+    },
+    "en": {
+      "name": "Trusted Security and Digital Provenance",
+      "kind": "Parallel Domain",
+      "horizon": "Continuous growth over 1-10 years",
+      "gap": "Generated content, AI agents and cross-border data flows make 'authenticity, origin, accountability, visibility' fundamental semantic issues.",
+      "lexical": [
+        "Digital Origin",
+        "AI Security Platform",
+        "Usable but Invisible",
+        "Unauthorized Agent"
+      ]
+    }
+  },
+  {
+    "id": "ai-security",
+    "path": [
+      "root",
+      "trust-security",
+      "ai-security"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "AI安全与代理治理",
+      "kind": "子领域",
+      "horizon": "1-6年",
+      "gap": "AI系统会被攻击、诱导、越权和误用，安全词汇从网络边界扩展到行为边界。",
+      "lexical": [
+        "提示注入",
+        "越权代理",
+        "行为审计"
+      ]
+    },
+    "en": {
+      "name": "AI Security and Agent Governance",
+      "kind": "Sub-domain",
+      "horizon": "1-6 years",
+      "gap": "AI systems are subject to attacks,诱导, unauthorized access and misuse, and security terminology extends from network boundaries to behavioral boundaries.",
+      "lexical": [
+        "Prompt Injection",
+        "Unauthorized Agent",
+        "Behavioral Audit"
+      ]
+    }
+  },
+  {
+    "id": "prompt-injection",
+    "path": [
+      "root",
+      "trust-security",
+      "ai-security",
+      "prompt-injection"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "提示注入",
+      "kind": "语义空白",
+      "horizon": "1-5年",
+      "gap": "攻击不一定通过代码漏洞，也可能通过语言指令操纵模型。",
+      "lexical": [
+        "注入: 从代码攻击扩展为语言攻击",
+        "提示: 从帮助信息扩展为控制接口",
+        "诱导: 从心理影响扩展为模型操控"
+      ]
+    },
+    "en": {
+      "name": "Prompt Injection",
+      "kind": "Semantic Gap",
+      "horizon": "1-5 years",
+      "gap": "Attacks do not necessarily exploit code vulnerabilities; they may also manipulate models via language instructions.",
+      "lexical": [
+        "injection: extends from code attacks to language attacks",
+        "prompt: extends from auxiliary information to control interface",
+        "induction: extends from psychological influence to model manipulation"
+      ]
+    }
+  },
+  {
+    "id": "rogue-agent",
+    "path": [
+      "root",
+      "trust-security",
+      "ai-security",
+      "rogue-agent"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "越权代理",
+      "kind": "语义空白",
+      "horizon": "1-6年",
+      "gap": "AI代理执行超出许可的动作，需要描述权限偏离和责任链。",
+      "lexical": [
+        "越权: 从组织违规扩展为系统行为",
+        "代理: 从代办者扩展为自动行动体",
+        "熔断: 从电路保护扩展为代理停机机制"
+      ]
+    },
+    "en": {
+      "name": "Unauthorized Agent",
+      "kind": "Semantic Gap",
+      "horizon": "1-6 years",
+      "gap": "AI agents perform actions beyond permitted scope, requiring description of permission deviation and responsibility chain.",
+      "lexical": [
+        "excess of authority: extends from organizational violation to system behavior",
+        "agent: extends from entrusted handler to autonomous actor",
+        "circuit breaking: extends from circuit protection to agent shutdown mechanism"
+      ]
+    }
+  },
+  {
+    "id": "behavior-audit",
+    "path": [
+      "root",
+      "trust-security",
+      "ai-security",
+      "behavior-audit"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "行为审计",
+      "kind": "语义空白",
+      "horizon": "1-6年",
+      "gap": "审计对象从财务和日志扩展到模型意图、步骤和工具调用。",
+      "lexical": [
+        "审计: 从账目核查扩展为AI行为追踪",
+        "留痕: 从痕迹保存扩展为决策链记录",
+        "复盘: 从项目总结扩展为代理行动重建"
+      ]
+    },
+    "en": {
+      "name": "Behavior Audit",
+      "kind": "Semantic Gap",
+      "horizon": "1-6 years",
+      "gap": "Audit objects expand from finance and logs to model intentions, execution steps and tool calls.",
+      "lexical": [
+        "audit: extends from account verification to AI behavior tracking",
+        "trace retention: extends from trace storage to decision chain recording",
+        "retrospective review: extends from project summary to agent action reconstruction"
+      ]
+    }
+  },
+  {
+    "id": "digital-provenance",
+    "path": [
+      "root",
+      "trust-security",
+      "digital-provenance"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "数字来源与内容真伪",
+      "kind": "子领域",
+      "horizon": "1-8年",
+      "gap": "图片、视频、文本、代码和数据都需要来源证明，来历不再只属于物品。",
+      "lexical": [
+        "数字来历",
+        "合成披露",
+        "水印证据"
+      ]
+    },
+    "en": {
+      "name": "Digital Provenance and Content Authenticity",
+      "kind": "Subdomain",
+      "horizon": "1-8 years",
+      "gap": "Images, videos, texts, codes and data all require provenance certification; origin is no longer exclusive to physical objects.",
+      "lexical": [
+        "digital origin",
+        "synthesis disclosure",
+        "watermark evidence"
+      ]
+    }
+  },
+  {
+    "id": "content-lineage",
+    "path": [
+      "root",
+      "trust-security",
+      "digital-provenance",
+      "content-lineage"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "内容谱系",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "内容可能经过人、模型、模板和多个平台共同生成。",
+      "lexical": [
+        "谱系: 从血缘关系扩展为内容生成链",
+        "来历: 从物品来源扩展为数据/媒体来源",
+        "原件: 从实体文件扩展为可信版本"
+      ]
+    },
+    "en": {
+      "name": "content lineage",
+      "kind": "semantic gap",
+      "horizon": "1-8 years",
+      "gap": "Content may be co-generated by humans, models, templates and multiple platforms.",
+      "lexical": [
+        "lineage: extends from blood relationship to content generation chain",
+        "origin: extends from item source to data/media source",
+        "original copy: extends from physical document to trusted version"
+      ]
+    }
+  },
+  {
+    "id": "synthetic-disclosure",
+    "path": [
+      "root",
+      "trust-security",
+      "digital-provenance",
+      "synthetic-disclosure"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "合成披露",
+      "kind": "语义空白",
+      "horizon": "1-6年",
+      "gap": "合成内容需要被标注，但合成程度有深浅，需要新的等级表达。",
+      "lexical": [
+        "合成: 从材料组合扩展为AI生成",
+        "披露: 从信息公开扩展为生成方式说明",
+        "半真: 从评价真假扩展为混合生成状态"
+      ]
+    },
+    "en": {
+      "name": "synthetic content disclosure",
+      "kind": "semantic gap",
+      "horizon": "1-6 years",
+      "gap": "Synthetic content needs to be labeled, but the degree of synthesis varies, so new grade expression is required.",
+      "lexical": [
+        "synthesis: extends from material combination to AI generation",
+        "disclosure: extends from information publicity to generation method description",
+        "semi-authentic: extends from authenticity evaluation to mixed generation status"
+      ]
+    }
+  },
+  {
+    "id": "watermark-evidence",
+    "path": [
+      "root",
+      "trust-security",
+      "digital-provenance",
+      "watermark-evidence"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "水印证据",
+      "kind": "语义空白",
+      "horizon": "1-7年",
+      "gap": "水印从版权装饰转向可信来源和篡改检测的证据。",
+      "lexical": [
+        "水印: 从可见标记扩展为机器可验凭据",
+        "证据: 从法律材料扩展为内容来源信号",
+        "验真: 从鉴定动作扩展为平台常规功能"
+      ]
+    },
+    "en": {
+      "name": "watermark evidence",
+      "kind": "semantic gap",
+      "horizon": "1-7 years",
+      "gap": "Watermarks have shifted from copyright decoration to evidence for trusted source and tampering detection.",
+      "lexical": [
+        "watermark: extends from visible mark to machine-verifiable credential",
+        "evidence: extends from legal material to content source signal",
+        "authenticity verification: extends from identification action to regular platform function"
+      ]
+    }
+  },
+  {
+    "id": "confidential-computing",
+    "path": [
+      "root",
+      "trust-security",
+      "confidential-computing"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "隐私计算与机密计算",
+      "kind": "子领域",
+      "horizon": "1-8年",
+      "gap": "数据在被使用时仍可保密，语言需要摆脱“要么共享、要么隐藏”的二分。",
+      "lexical": [
+        "可用不可见",
+        "可信执行",
+        "跨方协作"
+      ]
+    },
+    "en": {
+      "name": "Privacy Computing and Confidential Computing",
+      "kind": "Subfield",
+      "horizon": "1-8 years",
+      "gap": "Data can remain confidential while in use, and the narrative needs to move beyond the binary of 'either share or hide'.",
+      "lexical": [
+        "usable but invisible",
+        "trusted execution",
+        "cross-party collaboration"
+      ]
+    }
+  },
+  {
+    "id": "usable-invisible",
+    "path": [
+      "root",
+      "trust-security",
+      "confidential-computing",
+      "usable-invisible"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "可用不可见",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "他方能计算数据价值，却看不到原始内容。",
+      "lexical": [
+        "可用: 从可访问扩展为可计算",
+        "不可见: 从视觉遮蔽扩展为隐私保护",
+        "共享: 从交出内容扩展为开放计算能力"
+      ]
+    },
+    "en": {
+      "name": "Usable But Invisible",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "Other parties can compute the value of data without accessing the original content.",
+      "lexical": [
+        "usable: extends from accessible to computable",
+        "invisible: extends from visual occlusion to privacy protection",
+        "sharing: extends from handing over content to opening up computing capabilities"
+      ]
+    }
+  },
+  {
+    "id": "trusted-enclave",
+    "path": [
+      "root",
+      "trust-security",
+      "confidential-computing",
+      "trusted-enclave"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "可信执行",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "信任对象从人和机构扩展到硬件隔离环境。",
+      "lexical": [
+        "可信: 从社会评价扩展为硬件安全属性",
+        "执行: 从完成动作扩展为受保护计算",
+        "隔离: 从空间分开扩展为计算边界"
+      ]
+    },
+    "en": {
+      "name": "Trusted Execution",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "The object of trust extends from people and institutions to hardware-isolated environments.",
+      "lexical": [
+        "trusted: extends from social evaluation to hardware security attribute",
+        "execution: extends from completing an action to protected computing",
+        "isolation: extends from spatial separation to computing boundary"
+      ]
+    }
+  },
+  {
+    "id": "cross-party-compute",
+    "path": [
+      "root",
+      "trust-security",
+      "confidential-computing",
+      "cross-party-compute"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "跨方协作",
+      "kind": "语义空白",
+      "horizon": "2-8年",
+      "gap": "竞争者或监管方可在不暴露数据的前提下联合分析。",
+      "lexical": [
+        "协作: 从共同劳动扩展为安全联合计算",
+        "对账: 从账务核对扩展为隐私保护校验",
+        "沙盒: 从儿童游戏场扩展为受控计算环境"
+      ]
+    },
+    "en": {
+      "name": "Cross-party Collaboration",
+      "kind": "Semantic Gap",
+      "horizon": "2-8 years",
+      "gap": "Competitors or regulators can conduct joint analysis without exposing data.",
+      "lexical": [
+        "collaboration: extends from joint labor to secure joint computing",
+        "reconciliation: extends from account verification to privacy-preserving validation",
+        "sandbox: extends from children's playground to controlled computing environment"
+      ]
+    }
+  },
+  {
+    "id": "compute-quantum",
+    "path": [
+      "root",
+      "compute-quantum"
+    ],
+    "depth": 1,
+    "zh": {
+      "name": "量子、芯片与算力基础设施",
+      "kind": "平行领域",
+      "horizon": "1-10年基础设施竞争",
+      "gap": "算力、电力、芯片、量子和地缘政策缠在一起，基础设施词汇进入普通组织和个人叙事。",
+      "lexical": [
+        "推理工厂",
+        "热预算",
+        "后量子迁移",
+        "清洁计算"
+      ]
+    },
+    "en": {
+      "name": "Quantum, Chips and Computing Power Infrastructure",
+      "kind": "Parallel Domain",
+      "horizon": "1-10 years of infrastructure competition",
+      "gap": "Computing power, electricity, chips, quantum technology and geopolitical policies are intertwined, and infrastructure-related vocabulary enters the narratives of ordinary organizations and individuals.",
+      "lexical": [
+        "inference factory",
+        "thermal budget",
+        "post-quantum migration",
+        "clean computing"
+      ]
+    }
+  },
+  {
+    "id": "ai-compute",
+    "path": [
+      "root",
+      "compute-quantum",
+      "ai-compute"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "专用芯片与AI超算",
+      "kind": "子领域",
+      "horizon": "1-8年",
+      "gap": "AI推理成为生产过程，算力像能源和土地一样被配置、争夺和优化。",
+      "lexical": [
+        "推理工厂",
+        "热预算",
+        "专用芯片"
+      ]
+    },
+    "en": {
+      "name": "Specialized Chips and AI Supercomputing",
+      "kind": "Sub-domain",
+      "horizon": "1-8 years",
+      "gap": "AI inference has become a production process, and computing power is allocated, competed for and optimized just like energy and land.",
+      "lexical": [
+        "inference factory",
+        "thermal budget",
+        "specialized chip"
+      ]
+    }
+  },
+  {
+    "id": "inference-factory",
+    "path": [
+      "root",
+      "compute-quantum",
+      "ai-compute",
+      "inference-factory"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "推理工厂",
+      "kind": "语义空白",
+      "horizon": "1-6年",
+      "gap": "大规模模型推理像生产线一样持续产出服务。",
+      "lexical": [
+        "推理: 从逻辑判断扩展为AI计算服务",
+        "工厂: 从制造场所扩展为计算产能系统",
+        "产量: 从物品数量扩展为tokens/请求处理能力"
+      ]
+    },
+    "en": {
+      "name": "Inference Factory",
+      "kind": "Semantic Gap",
+      "horizon": "1-6 years",
+      "gap": "Large-scale model inference continuously delivers services like a production line.",
+      "lexical": [
+        "Inference: extends from logical judgment to AI computing services",
+        "Factory: extends from manufacturing site to computing capacity system",
+        "Yield: extends from item quantity to tokens/request processing capability"
+      ]
+    }
+  },
+  {
+    "id": "thermal-budget",
+    "path": [
+      "root",
+      "compute-quantum",
+      "ai-compute",
+      "thermal-budget"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "热预算",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "散热成为算力部署上限，预算不只指钱。",
+      "lexical": [
+        "预算: 从财务计划扩展为能耗/热量约束",
+        "热: 从温度感受扩展为基础设施瓶颈",
+        "冷却: 从降温动作扩展为算力保障"
+      ]
+    },
+    "en": {
+      "name": "Thermal Budget",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "Heat dissipation becomes the upper limit for computing power deployment, and budget no longer only refers to money.",
+      "lexical": [
+        "Budget: extends from financial plan to energy consumption/heat constraint",
+        "Heat: extends from temperature perception to infrastructure bottleneck",
+        "Cooling: extends from temperature reduction action to computing power guarantee"
+      ]
+    }
+  },
+  {
+    "id": "bespoke-chip",
+    "path": [
+      "root",
+      "compute-quantum",
+      "ai-compute",
+      "bespoke-chip"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "专用芯片",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "芯片按模型、场景和能耗定制，硬件变得更像应用生态的一部分。",
+      "lexical": [
+        "专用: 从用途限定扩展为模型适配",
+        "加速: 从速度变化扩展为硬件优化",
+        "适配: 从兼容关系扩展为芯片-模型共设计"
+      ]
+    },
+    "en": {
+      "name": "Bespoke Chip",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "Chips are customized based on models, scenarios and energy consumption, and hardware has become more like a part of the application ecosystem.",
+      "lexical": [
+        "Bespoke: extends from use restriction to model adaptation",
+        "Acceleration: extends from speed change to hardware optimization",
+        "Adaptation: extends from compatibility relationship to chip-model co-design"
+      ]
+    }
+  },
+  {
+    "id": "quantum-tech",
+    "path": [
+      "root",
+      "compute-quantum",
+      "quantum-tech"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "量子技术",
+      "kind": "子领域",
+      "horizon": "3-10年",
+      "gap": "量子计算、通信和传感逐渐接近产业场景，抽象物理词进入安全、材料和测量语境。",
+      "lexical": [
+        "后量子",
+        "量子传感",
+        "优势窗口"
+      ]
+    },
+    "en": {
+      "name": "Quantum Technology",
+      "kind": "Sub-field",
+      "horizon": "3-10 years",
+      "gap": "Quantum computing, communication and sensing are gradually approaching industrial scenarios, and abstract physics terms are entering the contexts of security, materials and measurement.",
+      "lexical": [
+        "post-quantum",
+        "quantum sensing",
+        "advantage window"
+      ]
+    }
+  },
+  {
+    "id": "post-quantum",
+    "path": [
+      "root",
+      "compute-quantum",
+      "quantum-tech",
+      "post-quantum"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "后量子迁移",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "密码体系要提前迁移到抗量子攻击方案。",
+      "lexical": [
+        "后: 从时间之后扩展为抗量子安全阶段",
+        "迁移: 从位置移动扩展为密码体系替换",
+        "抗: 从抵御动作扩展为算法安全属性"
+      ]
+    },
+    "en": {
+      "name": "Post-Quantum Migration",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "Cryptography systems need to be migrated to quantum attack-resistant solutions in advance.",
+      "lexical": [
+        "post: extends from after a time period to the quantum-resistant security stage",
+        "migration: extends from position movement to cryptography system replacement",
+        "resistant: extends from the action of resisting to algorithm security attribute"
+      ]
+    }
+  },
+  {
+    "id": "quantum-sensing",
+    "path": [
+      "root",
+      "compute-quantum",
+      "quantum-tech",
+      "quantum-sensing"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "量子传感",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "极高精度测量会改变地下探测、导航和医学成像。",
+      "lexical": [
+        "传感: 从设备感知扩展为量子态测量",
+        "灵敏: 从感觉敏锐扩展为物理测量极限",
+        "看见: 从视觉扩展为不可见场探测"
+      ]
+    },
+    "en": {
+      "name": "Quantum Sensing",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Ultra-high-precision measurement will transform underground detection, navigation and medical imaging.",
+      "lexical": [
+        "sensing: extends from device perception to quantum state measurement",
+        "sensitive: extends from sharp sensory perception to physical measurement limit",
+        "see: extends from vision to invisible field detection"
+      ]
+    }
+  },
+  {
+    "id": "advantage-window",
+    "path": [
+      "root",
+      "compute-quantum",
+      "quantum-tech",
+      "advantage-window"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "优势窗口",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "量子优势可能在特定任务、短时期或窄场景中出现。",
+      "lexical": [
+        "优势: 从竞争强项扩展为计算可行性",
+        "窗口: 从建筑物扩展为机会时段",
+        "窄场景: 从空间狭窄扩展为任务适用范围"
+      ]
+    },
+    "en": {
+      "name": "advantage window",
+      "kind": "semantic gap",
+      "horizon": "3-10 years",
+      "gap": "Quantum advantage may emerge in specific tasks, short periods or narrow scenarios.",
+      "lexical": [
+        "advantage: extends from competitive strength to computational feasibility",
+        "window: extends from building structure to opportunity period",
+        "narrow scenario: extends from spatial narrowness to task application scope"
+      ]
+    }
+  },
+  {
+    "id": "geopatriated-infra",
+    "path": [
+      "root",
+      "compute-quantum",
+      "geopatriated-infra"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "数据中心与地缘化基础设施",
+      "kind": "子领域",
+      "horizon": "1-10年",
+      "gap": "数据、模型和算力受主权、供应链和能源约束影响，基础设施词汇带上地缘含义。",
+      "lexical": [
+        "地缘回迁",
+        "智能出口",
+        "清洁计算"
+      ]
+    },
+    "en": {
+      "name": "data centers and geopatriated infrastructure",
+      "kind": "sub-field",
+      "horizon": "1-10 years",
+      "gap": "Data, models and computing power are constrained by sovereignty, supply chains and energy, giving infrastructure vocabulary geopolitical connotations.",
+      "lexical": [
+        "geopatriation",
+        "intelligent export",
+        "clean computing"
+      ]
+    }
+  },
+  {
+    "id": "geopatriation",
+    "path": [
+      "root",
+      "compute-quantum",
+      "geopatriated-infra",
+      "geopatriation"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "地缘回迁",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "数据和计算能力向本国、本地区或可信伙伴迁移。",
+      "lexical": [
+        "回迁: 从人口/产业搬回扩展为数据和算力部署",
+        "主权: 从国家权力扩展为数据控制",
+        "近岸: 从地理位置扩展为供应链策略"
+      ]
+    },
+    "en": {
+      "name": "geopatriation",
+      "kind": "semantic gap",
+      "horizon": "1-8 years",
+      "gap": "Data and computing capacity are relocated to home countries, local regions or trusted partners.",
+      "lexical": [
+        "repatriation: extends from population/industry relocation to data and computing power deployment",
+        "sovereignty: extends from state authority to data control",
+        "nearshore: extends from geographic location to supply chain strategy"
+      ]
+    }
+  },
+  {
+    "id": "intelligence-export",
+    "path": [
+      "root",
+      "compute-quantum",
+      "geopatriated-infra",
+      "intelligence-export"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "智能出口",
+      "kind": "语义空白",
+      "horizon": "2-10年",
+      "gap": "国家或企业输出的不只是商品，也可能是算力、模型和自动化服务。",
+      "lexical": [
+        "出口: 从货物流出扩展为智能服务输出",
+        "产地: 从商品来源扩展为模型/算力所在",
+        "配额: 从贸易数量扩展为算力资源限制"
+      ]
+    },
+    "en": {
+      "name": "Intelligence Export",
+      "kind": "Semantic Gap",
+      "horizon": "2-10 years",
+      "gap": "What countries or enterprises export is not only commodities, but also computing power, models and automated services.",
+      "lexical": [
+        "export: extends from outflow of goods to export of intelligent services",
+        "place of origin: extends from source of commodities to location of models/computing power",
+        "quota: extends from trade volume limit to computing power resource limit"
+      ]
+    }
+  },
+  {
+    "id": "clean-compute",
+    "path": [
+      "root",
+      "compute-quantum",
+      "geopatriated-infra",
+      "clean-compute"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "清洁计算",
+      "kind": "语义空白",
+      "horizon": "1-10年",
+      "gap": "计算服务被评价其能源来源、水耗和碳强度。",
+      "lexical": [
+        "清洁: 从卫生状态扩展为低碳算力属性",
+        "绿色: 从颜色扩展为计算伦理标签",
+        "水耗: 从工业指标扩展为AI服务成本"
+      ]
+    },
+    "en": {
+      "name": "Clean Computing",
+      "kind": "Semantic Gap",
+      "horizon": "1-10 years",
+      "gap": "Computing services are evaluated by their energy source, water consumption and carbon intensity.",
+      "lexical": [
+        "clean: extends from hygienic state to attribute of low-carbon computing power",
+        "green: extends from color to ethical label for computing",
+        "water consumption: extends from industrial indicator to AI service cost"
+      ]
+    }
+  },
+  {
+    "id": "work-education",
+    "path": [
+      "root",
+      "work-education"
+    ],
+    "depth": 1,
+    "zh": {
+      "name": "未来工作与教育",
+      "kind": "平行领域",
+      "horizon": "1-10年社会结构变化",
+      "gap": "AI改变岗位、技能、学习证明和知识生产方式，教育与劳动词汇会持续外溢。",
+      "lexical": [
+        "数字同事",
+        "技能缺口",
+        "过程证据",
+        "人机共著"
+      ]
+    },
+    "en": {
+      "name": "Future of Work and Education",
+      "kind": "Parallel Domain",
+      "horizon": "1-10 years of social structure changes",
+      "gap": "AI is transforming jobs, skills, learning credentials and knowledge production methods, and vocabulary related to education and labor will continue to spill over.",
+      "lexical": [
+        "digital coworker",
+        "skill gap",
+        "process evidence",
+        "human-AI co-authorship"
+      ]
+    }
+  },
+  {
+    "id": "human-ai-work",
+    "path": [
+      "root",
+      "work-education",
+      "human-ai-work"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "人机岗位协作",
+      "kind": "子领域",
+      "horizon": "1-7年",
+      "gap": "工作单位从个人或团队变成人机组合，岗位和责任词汇面临重配。",
+      "lexical": [
+        "数字同事",
+        "影子团队",
+        "责任共签"
+      ]
+    },
+    "en": {
+      "name": "Human-AI Post Collaboration",
+      "kind": "Subfield",
+      "horizon": "1-7 years",
+      "gap": "Work units have evolved from individuals or teams to human-AI combinations, and job and responsibility terms are facing reconfiguration.",
+      "lexical": [
+        "Digital coworker",
+        "Shadow team",
+        "Joint signature for responsibility"
+      ]
+    }
+  },
+  {
+    "id": "digital-coworker",
+    "path": [
+      "root",
+      "work-education",
+      "human-ai-work",
+      "digital-coworker"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "数字同事",
+      "kind": "语义空白",
+      "horizon": "1-5年",
+      "gap": "AI参与日常工作流，但不具有人的身份和权利。",
+      "lexical": [
+        "同事: 从雇员关系扩展为协作系统",
+        "搭班: 从轮班伙伴扩展为AI协作安排",
+        "在职: 从雇佣状态扩展为系统启用状态"
+      ]
+    },
+    "en": {
+      "name": "Digital Coworker",
+      "kind": "Semantic gap",
+      "horizon": "1-5 years",
+      "gap": "AI participates in daily workflows, but does not possess human identity and rights.",
+      "lexical": [
+        "colleague: extends from employee relationship to collaborative system",
+        "shift partner: extends from shift work partner to AI collaboration arrangement",
+        "on duty: extends from employment status to system activation status"
+      ]
+    }
+  },
+  {
+    "id": "shadow-team",
+    "path": [
+      "root",
+      "work-education",
+      "human-ai-work",
+      "shadow-team"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "影子团队",
+      "kind": "语义空白",
+      "horizon": "1-6年",
+      "gap": "一个人背后可能有多个AI代理承担研究、写作、分析和执行。",
+      "lexical": [
+        "团队: 从多人组织扩展为一人多代理",
+        "影子: 从隐蔽副本扩展为辅助智能层",
+        "人手: 从劳动力数量扩展为可调用代理能力"
+      ]
+    },
+    "en": {
+      "name": "Shadow Team",
+      "kind": "Semantic gap",
+      "horizon": "1-6 years",
+      "gap": "A single person may have multiple AI agents behind them responsible for research, writing, analysis and execution.",
+      "lexical": [
+        "team: extends from multi-person organization to one person with multiple agents",
+        "shadow: extends from hidden copy to auxiliary intelligence layer",
+        "manpower: extends from labor quantity to callable agent capability"
+      ]
+    }
+  },
+  {
+    "id": "shared-accountability",
+    "path": [
+      "root",
+      "work-education",
+      "human-ai-work",
+      "shared-accountability"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "责任共签",
+      "kind": "语义空白",
+      "horizon": "2-7年",
+      "gap": "成果由人和AI共同生成，责任归属需要分层签署。",
+      "lexical": [
+        "签字: 从个人确认扩展为人机责任链",
+        "负责: 从人承担后果扩展为流程治理",
+        "共创: 从合作生产扩展为人机生成"
+      ]
+    },
+    "en": {
+      "name": "Shared Accountability Sign-off",
+      "kind": "Semantic Gap",
+      "horizon": "2-7 years",
+      "gap": "Outcomes are co-generated by humans and AI, so liability attribution requires layered sign-off.",
+      "lexical": [
+        "sign-off: extends from personal confirmation to human-AI responsibility chain",
+        "accountability: extends from human bearing of consequences to process governance",
+        "co-creation: extends from collaborative production to human-AI generation"
+      ]
+    }
+  },
+  {
+    "id": "reskilling",
+    "path": [
+      "root",
+      "work-education",
+      "reskilling"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "技能再训练与终身学习",
+      "kind": "子领域",
+      "horizon": "1-10年",
+      "gap": "技能生命周期缩短，学习证明从学历转向小颗粒、可迁移、可验证能力。",
+      "lexical": [
+        "技能缺口",
+        "微证书",
+        "迁移能力"
+      ]
+    },
+    "en": {
+      "name": "Skill Reskilling and Lifelong Learning",
+      "kind": "Sub-domain",
+      "horizon": "1-10 years",
+      "gap": "The skill lifecycle is shortened, and learning proof shifts from academic degrees to fine-grained, transferable, verifiable competencies.",
+      "lexical": [
+        "skill gap",
+        "micro-credential",
+        "transferable competency"
+      ]
+    }
+  },
+  {
+    "id": "skill-gap",
+    "path": [
+      "root",
+      "work-education",
+      "reskilling",
+      "skill-gap"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "技能缺口",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "岗位需求变化快于教育供给，缺口成为组织转型的核心指标。",
+      "lexical": [
+        "缺口: 从数量不足扩展为能力结构差",
+        "补课: 从学生学习扩展为职业再训练",
+        "掉队: 从队伍位置扩展为技能过时"
+      ]
+    },
+    "en": {
+      "name": "Skill Gap",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "Job demand changes faster than education supply, and the skill gap has become a core indicator of organizational transformation.",
+      "lexical": [
+        "gap: extends from insufficient quantity to competency structure mismatch",
+        "remedial training: extends from student learning to occupational reskilling",
+        "falling behind: extends from team position ranking to skill obsolescence"
+      ]
+    }
+  },
+  {
+    "id": "micro-credential",
+    "path": [
+      "root",
+      "work-education",
+      "reskilling",
+      "micro-credential"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "微证书",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "学习成果被拆成可组合、可验证的小单位。",
+      "lexical": [
+        "证书: 从完整资历扩展为能力片段",
+        "微: 从尺寸小扩展为颗粒化认证",
+        "堆叠: 从物体叠放扩展为资历组合"
+      ]
+    },
+    "en": {
+      "name": "Micro-credential",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "Learning outcomes are split into composable, verifiable small units.",
+      "lexical": [
+        "certificate: extends from complete qualification to competence fragment",
+        "micro: extends from small in size to granular certification",
+        "stack: extends from physical object stacking to qualification combination"
+      ]
+    }
+  },
+  {
+    "id": "transferable-skill",
+    "path": [
+      "root",
+      "work-education",
+      "reskilling",
+      "transferable-skill"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "迁移能力",
+      "kind": "语义空白",
+      "horizon": "1-10年",
+      "gap": "人在职业转换中需要证明能力能跨领域复用。",
+      "lexical": [
+        "迁移: 从位置移动扩展为能力转用",
+        "通用: 从普遍适用扩展为跨岗位能力",
+        "折算: 从数值换算扩展为经验转换"
+      ]
+    },
+    "en": {
+      "name": "Transferable Skill",
+      "kind": "Semantic Gap",
+      "horizon": "1-10 years",
+      "gap": "During career transitions, people need to prove their skills can be reused across domains.",
+      "lexical": [
+        "transfer: extends from location movement to skill application conversion",
+        "general: extends from universally applicable to cross-position competence",
+        "convert: extends from numerical conversion to experience transformation"
+      ]
+    }
+  },
+  {
+    "id": "assessment-authorship",
+    "path": [
+      "root",
+      "work-education",
+      "assessment-authorship"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "评估与知识生产",
+      "kind": "子领域",
+      "horizon": "1-10年",
+      "gap": "AI参与写作、研究和答题后，评价要从最终作品转向过程证据。",
+      "lexical": [
+        "过程证据",
+        "人机共著",
+        "可证明学习"
+      ]
+    },
+    "en": {
+      "name": "Assessment and Knowledge Production",
+      "kind": "Subdomain",
+      "horizon": "1-10 years",
+      "gap": "After AI participates in writing, research and answering questions, evaluation should shift from final works to process evidence.",
+      "lexical": [
+        "Process Evidence",
+        "Human-AI Co-Authorship",
+        "Provable Learning"
+      ]
+    }
+  },
+  {
+    "id": "process-evidence",
+    "path": [
+      "root",
+      "work-education",
+      "assessment-authorship",
+      "process-evidence"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "过程证据",
+      "kind": "语义空白",
+      "horizon": "1-6年",
+      "gap": "评价学习或研究时，需要看到思考、修改、引用和工具使用过程。",
+      "lexical": [
+        "过程: 从步骤经过扩展为可信证据",
+        "痕迹: 从物理印记扩展为学习记录",
+        "原创: 从结果独立扩展为过程可证"
+      ]
+    },
+    "en": {
+      "name": "Process Evidence",
+      "kind": "Semantic Gap",
+      "horizon": "1-6 years",
+      "gap": "When evaluating learning or research, the processes of thinking, revision, citation, and tool use need to be available for review.",
+      "lexical": [
+        "process: extends from step progression to credible evidence",
+        "trace: extends from physical imprint to learning record",
+        "originality: extends from independent outcome to verifiable process"
+      ]
+    }
+  },
+  {
+    "id": "human-ai-authorship",
+    "path": [
+      "root",
+      "work-education",
+      "assessment-authorship",
+      "human-ai-authorship"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "人机共著",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "作品由人和AI共同完成，但作者身份、贡献和署名仍需细分。",
+      "lexical": [
+        "作者: 从人扩展为贡献结构",
+        "共著: 从多人写作扩展为人机协作",
+        "润色: 从语言修改扩展为模型深度改写"
+      ]
+    },
+    "en": {
+      "name": "Human-AI Co-Authorship",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "Works are created jointly by humans and AI, but authorship, contribution, and attribution still require further granular classification.",
+      "lexical": [
+        "author: extends from human individual to contribution structure",
+        "co-authorship: extends from multi-person writing to human-AI collaboration",
+        "polishing: extends from linguistic modification to in-depth model rewriting"
+      ]
+    }
+  },
+  {
+    "id": "provable-learning",
+    "path": [
+      "root",
+      "work-education",
+      "assessment-authorship",
+      "provable-learning"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "可证明学习",
+      "kind": "语义空白",
+      "horizon": "2-10年",
+      "gap": "学习不只看答案，还要证明能力确实内化到人。",
+      "lexical": [
+        "证明: 从论证动作扩展为能力验证",
+        "掌握: 从理解会用扩展为可复现场景表现",
+        "代做: 从他人完成扩展为AI替代完成"
+      ]
+    },
+    "en": {
+      "name": "Provable Learning",
+      "kind": "Semantic Gap",
+      "horizon": "2-10 years",
+      "gap": "Learning assessment does not only rely on final answers; it also needs to prove that capabilities have been genuinely internalized by the learner.",
+      "lexical": [
+        "proof: extends from argumentation action to capability verification",
+        "mastery: extends from comprehension and application to replicable scenario performance",
+        "proxy completion: extends from completion by others to completion substituted by AI"
+      ]
+    }
+  },
+  {
+    "id": "space-mobility",
+    "path": [
+      "root",
+      "space-mobility"
+    ],
+    "depth": 1,
+    "zh": {
+      "name": "太空、地球观测与移动系统",
+      "kind": "平行领域",
+      "horizon": "2-10年扩大应用",
+      "gap": "轨道资产、实时地球数据和自动移动系统会把距离、位置、道路和服务重新语义化。",
+      "lexical": [
+        "轨道物流",
+        "实时地球",
+        "车路云",
+        "移动空间"
+      ]
+    },
+    "en": {
+      "name": "Space, Earth Observation and Mobility Systems",
+      "kind": "Parallel Domain",
+      "horizon": "Scale up applications in 2-10 years",
+      "gap": "Orbital assets, real-time Earth data and autonomous mobility systems will re-semanticize distance, location, roads and services.",
+      "lexical": [
+        "Orbital Logistics",
+        "Real-Time Earth",
+        "Vehicle-Road-Cloud",
+        "Mobile Space"
+      ]
+    }
+  },
+  {
+    "id": "commercial-space",
+    "path": [
+      "root",
+      "space-mobility",
+      "commercial-space"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "商业航天与在轨服务",
+      "kind": "子领域",
+      "horizon": "3-10年",
+      "gap": "太空不再只是探索目标，也成为维修、补给、制造和数据服务空间。",
+      "lexical": [
+        "轨道物流",
+        "太空维修",
+        "在轨资产"
+      ]
+    },
+    "en": {
+      "name": "Commercial Spaceflight and In-Orbit Services",
+      "kind": "Sub-domain",
+      "horizon": "3-10 years",
+      "gap": "Space is no longer just an exploration target, but also a space for maintenance, supply, manufacturing and data services.",
+      "lexical": [
+        "Orbital Logistics",
+        "Space Maintenance",
+        "In-Orbit Assets"
+      ]
+    }
+  },
+  {
+    "id": "orbital-logistics",
+    "path": [
+      "root",
+      "space-mobility",
+      "commercial-space",
+      "orbital-logistics"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "轨道物流",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "货物、燃料和设备在轨道间转运。",
+      "lexical": [
+        "物流: 从地面运输扩展为轨道补给",
+        "港口: 从水陆节点扩展为太空停靠点",
+        "配送: 从城市服务扩展为在轨交付"
+      ]
+    },
+    "en": {
+      "name": "Orbital Logistics",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Transshipment of goods, fuel and equipment between orbits.",
+      "lexical": [
+        "logistics: extends from ground transportation to orbital resupply",
+        "port: extends from water and land node to space docking point",
+        "delivery: extends from urban service to in-orbit handover"
+      ]
+    }
+  },
+  {
+    "id": "space-maintenance",
+    "path": [
+      "root",
+      "space-mobility",
+      "commercial-space",
+      "space-maintenance"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "太空维修",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "卫星和设备可以在轨检查、修复和升级。",
+      "lexical": [
+        "维修: 从地面设备扩展为在轨操作",
+        "保养: 从车辆/机器维护扩展为卫星寿命管理",
+        "升级: 从软件更新扩展为太空硬件改造"
+      ]
+    },
+    "en": {
+      "name": "Space Maintenance",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Satellites and equipment can be inspected, repaired and upgraded on orbit.",
+      "lexical": [
+        "maintenance: extends from ground equipment to on-orbit operations",
+        "upkeep: extends from vehicle/machine maintenance to satellite lifespan management",
+        "upgrade: extends from software updates to space hardware modification"
+      ]
+    }
+  },
+  {
+    "id": "orbital-asset",
+    "path": [
+      "root",
+      "space-mobility",
+      "commercial-space",
+      "orbital-asset"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "在轨资产",
+      "kind": "语义空白",
+      "horizon": "3-10年",
+      "gap": "轨道位置、卫星能力和频谱资源成为资产组合。",
+      "lexical": [
+        "资产: 从财产扩展为轨道能力",
+        "占位: 从位置保留扩展为轨道资源使用",
+        "寿命: 从生命时长扩展为设备服务周期"
+      ]
+    },
+    "en": {
+      "name": "On-Orbit Asset",
+      "kind": "Semantic Gap",
+      "horizon": "3-10 years",
+      "gap": "Orbital positions, satellite capabilities and spectrum resources become part of asset portfolios.",
+      "lexical": [
+        "asset: extends from property to orbital capabilities",
+        "reservation: extends from position retention to orbital resource utilization",
+        "lifespan: extends from lifetime duration to equipment service cycle"
+      ]
+    }
+  },
+  {
+    "id": "earth-observation",
+    "path": [
+      "root",
+      "space-mobility",
+      "earth-observation"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "地球观测与灾害响应",
+      "kind": "子领域",
+      "horizon": "1-10年",
+      "gap": "地球数据更实时、更细粒度，环境变化被纳入城市、农业和保险语言。",
+      "lexical": [
+        "实时地球",
+        "灾前定位",
+        "天眼数据"
+      ]
+    },
+    "en": {
+      "name": "Earth Observation and Disaster Response",
+      "kind": "Subfield",
+      "horizon": "1-10 years",
+      "gap": "Earth data is more real-time and finer-grained, and environmental changes are integrated into the language of urban governance, agriculture and insurance.",
+      "lexical": [
+        "Real-time Earth",
+        "Pre-disaster Location",
+        "Sky Eye Data"
+      ]
+    }
+  },
+  {
+    "id": "real-time-earth",
+    "path": [
+      "root",
+      "space-mobility",
+      "earth-observation",
+      "real-time-earth"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "实时地球",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "地球状态接近实时更新，地图从静态表示变成动态仪表盘。",
+      "lexical": [
+        "实时: 从通信速度扩展为地球感知频率",
+        "地图: 从位置图扩展为变化监测界面",
+        "刷新: 从屏幕更新扩展为地理事实更新"
+      ]
+    },
+    "en": {
+      "name": "Real-time Earth",
+      "kind": "semantic gap",
+      "horizon": "1-8 years",
+      "gap": "Earth state is updated near real time, and maps evolve from static representations to dynamic dashboards.",
+      "lexical": [
+        "real-time: extends from communication speed to earth sensing frequency",
+        "map: extends from location diagram to change monitoring interface",
+        "refresh: extends from screen update to geographic fact update"
+      ]
+    }
+  },
+  {
+    "id": "pre-disaster",
+    "path": [
+      "root",
+      "space-mobility",
+      "earth-observation",
+      "pre-disaster"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "灾前定位",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "灾害响应从事后救援前移到风险预判和资源预置。",
+      "lexical": [
+        "灾前: 从时间描述扩展为治理阶段",
+        "定位: 从确定位置扩展为识别风险点",
+        "预置: 从提前放置扩展为应急资源算法配置"
+      ]
+    },
+    "en": {
+      "name": "Pre-disaster Positioning",
+      "kind": "semantic gap",
+      "horizon": "1-8 years",
+      "gap": "Disaster response shifts from post-disaster rescue to forward-placed risk prediction and resource pre-deployment.",
+      "lexical": [
+        "pre-disaster: extends from time description to governance stage",
+        "positioning: extends from location confirmation to risk point identification",
+        "pre-deployment: extends from advance placement to algorithm-based allocation of emergency resources"
+      ]
+    }
+  },
+  {
+    "id": "sky-eye-data",
+    "path": [
+      "root",
+      "space-mobility",
+      "earth-observation",
+      "sky-eye-data"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "天眼数据",
+      "kind": "语义空白",
+      "horizon": "1-10年",
+      "gap": "卫星、无人机和地面传感融合为高空视角的数据流。",
+      "lexical": [
+        "天眼: 从宏观监视隐喻扩展为多源观测系统",
+        "俯瞰: 从视觉角度扩展为数据治理视角",
+        "盲区: 从看不见扩展为监测不足区域"
+      ]
+    },
+    "en": {
+      "name": "Sky Eye Data",
+      "kind": "semantic gap",
+      "horizon": "1-10 years",
+      "gap": "Satellites, drones and ground sensors are integrated into a high-altitude perspective data stream.",
+      "lexical": [
+        "sky eye: extends from macro surveillance metaphor to multi-source observation system",
+        "overlook: extends from visual angle to data governance perspective",
+        "blind area: extends from invisible area to insufficiently monitored region"
+      ]
+    }
+  },
+  {
+    "id": "future-mobility",
+    "path": [
+      "root",
+      "space-mobility",
+      "future-mobility"
+    ],
+    "depth": 2,
+    "zh": {
+      "name": "未来交通与自动移动",
+      "kind": "子领域",
+      "horizon": "1-10年",
+      "gap": "车、路、云和城市服务融合，交通词汇从驾驶行为转向移动服务和空间体验。",
+      "lexical": [
+        "车路云",
+        "移动空间",
+        "无人配送礼仪"
+      ]
+    },
+    "en": {
+      "name": "Future Transportation and Autonomous Mobility",
+      "kind": "sub-domain",
+      "horizon": "1-10 years",
+      "gap": "Vehicles, roads, cloud and urban services are integrated, and transportation vocabulary shifts from driving behavior to mobility services and spatial experience.",
+      "lexical": [
+        "vehicle-road-cloud",
+        "mobile space",
+        "unmanned delivery etiquette"
+      ]
+    }
+  },
+  {
+    "id": "vehicle-road-cloud",
+    "path": [
+      "root",
+      "space-mobility",
+      "future-mobility",
+      "vehicle-road-cloud"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "车路云",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "车辆、道路设施和云端系统共同决策。",
+      "lexical": [
+        "路: 从通行空间扩展为感知节点",
+        "驾驶: 从人操控扩展为系统协同",
+        "协同: 从人际配合扩展为交通基础设施联动"
+      ]
+    },
+    "en": {
+      "name": "Vehicle-Road-Cloud Integration",
+      "kind": "semantic gap",
+      "horizon": "1-8 years",
+      "gap": "Vehicles, road facilities and cloud systems make joint decisions.",
+      "lexical": [
+        "road: extends from passage space to sensing node",
+        "driving: extends from human control to system collaboration",
+        "coordination: extends from interpersonal cooperation to transportation infrastructure linkage"
+      ]
+    }
+  },
+  {
+    "id": "mobile-space",
+    "path": [
+      "root",
+      "space-mobility",
+      "future-mobility",
+      "mobile-space"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "移动空间",
+      "kind": "语义空白",
+      "horizon": "2-10年",
+      "gap": "车辆从交通工具变成办公、娱乐、休息的可移动房间。",
+      "lexical": [
+        "空间: 从固定场所扩展为移动场景",
+        "舱: 从设备内部扩展为生活界面",
+        "通勤: 从路程行为扩展为可利用时间段"
+      ]
+    },
+    "en": {
+      "name": "Mobile Space",
+      "kind": "semantic gap",
+      "horizon": "2-10 years",
+      "gap": "Vehicles transform from means of transport into movable rooms for work, entertainment and rest.",
+      "lexical": [
+        "space: extends from fixed location to mobile scenario",
+        "cabin: extends from equipment interior to life interface",
+        "commute: extends from travel behavior to usable time period"
+      ]
+    }
+  },
+  {
+    "id": "delivery-etiquette",
+    "path": [
+      "root",
+      "space-mobility",
+      "future-mobility",
+      "delivery-etiquette"
+    ],
+    "depth": 3,
+    "zh": {
+      "name": "无人配送礼仪",
+      "kind": "语义空白",
+      "horizon": "1-8年",
+      "gap": "机器人与人共享人行道、电梯和门禁时，需要新的公共空间规则。",
+      "lexical": [
+        "礼仪: 从人际规范扩展为人机共处规则",
+        "让路: 从交通行为扩展为服务机器人交互",
+        "等候: 从人的时间状态扩展为机器队列策略"
+      ]
+    },
+    "en": {
+      "name": "Unmanned Delivery Etiquette",
+      "kind": "Semantic Gap",
+      "horizon": "1-8 years",
+      "gap": "When robots share sidewalks, elevators and access control systems with humans, new public space rules are required.",
+      "lexical": [
+        "etiquette: extends from interpersonal norms to human-machine coexistence rules",
+        "give way: extends from traffic behavior to service robot interaction",
+        "wait: extends from human temporal state to robot queuing strategy"
+      ]
+    }
+  }
+]
