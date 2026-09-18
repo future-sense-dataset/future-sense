@@ -13,7 +13,6 @@ implementation, and the stage-2 candidate-sense generation prompt. The existing
 | Standalone construction router | `routing/route_wordnet.py` |
 | Dependencies | `routing/requirements.txt` |
 | Generation prompt template | `prompts/new_sense_generation.txt` |
-| Prompt fields and recorded generation settings | `prompts/README.md` |
 
 The tree contains 118 nodes: one root, nine broad domains, 27 intermediate
 regions, and 81 fine-grained gaps. The bilingual inventory identifies every node
@@ -79,7 +78,7 @@ routes and surrounding workflow code have been omitted.
 
 ## Stage 2: generation prompt
 
-See `prompts/README.md` for all template substitutions. The prompt takes textual
+The prompt in `prompts/new_sense_generation.txt` takes textual
 routing evidence, gap context, the selected old-sense anchor, and supplied
 structured historical/current senses. It does not take embedding vectors.
 

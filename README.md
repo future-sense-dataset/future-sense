@@ -11,7 +11,7 @@ FUTURE-SENSE is a resource for evaluating lexical-semantic generalization over c
 | Complete English semantic-gap tree | [`construction/trees/future_semantic_gap_tree.en.json`](construction/trees/future_semantic_gap_tree.en.json) |
 | Chinese/English node inventory and paths | [`construction/trees/future_semantic_gap_tree.bilingual.json`](construction/trees/future_semantic_gap_tree.bilingual.json) |
 | Stage-1 routing implementation | [`construction/routing/route_wordnet.py`](construction/routing/route_wordnet.py) |
-| Stage-2 generation prompt and input specification | [`construction/prompts/`](construction/prompts/) |
+| Stage-2 generation prompt | [`construction/prompts/new_sense_generation.txt`](construction/prompts/new_sense_generation.txt) |
 | License | [`LICENSE`](LICENSE) |
 
 ## Data Fields
@@ -31,11 +31,11 @@ The semantic-gap tree contains one root, nine broad domains, 27 intermediate reg
 
 Stage 1 scores all candidate word-form–leaf pairs using WordNet senses and MPNet embeddings. It aggregates the top five sense–leaf similarities within each domain and uses the maximum sense similarity for each specific leaf. All pairs are globally ranked by domain score, leaf score, and deterministic tie-breaking keys. Greedy allocation assigns each word form at most once and fills five slots per leaf. The recorded run used 8,712 candidate forms and produced 405 assignments.
 
-Stage 2 conditions candidate-sense generation on the assigned gap, source-sense anchor, structured historical evidence, and current recorded senses. Of the 405 assignments, 403 yielded non-empty candidate records; human curation produced the final evaluation release. The prompt exposes the generation instructions and output schema. See the [construction documentation](construction/README.md) for dependencies, commands, settings, and required inputs.
+Stage 2 conditions candidate-sense generation on the assigned gap, source-sense anchor, structured historical evidence, and current recorded senses. Of the 405 assignments, 403 yielded non-empty candidate records; human curation produced the final evaluation release. The prompt exposes the generation instructions and output schema. See the [construction documentation](construction/README.md) for routing dependencies and commands.
 
 ## Release Scope and Reproducibility
 
-The evaluation CSV contains the four task-facing fields listed above. The construction supplement adds the complete future tree, a standalone routing implementation, and the candidate-generation prompt with input-field documentation. The v1.0 CSV is unchanged by this supplement.
+The evaluation CSV contains the four task-facing fields listed above. The construction supplement adds the complete future tree, a standalone routing implementation, and the candidate-generation prompt. The v1.0 CSV is unchanged by this supplement.
 
 Other per-instance construction and traceability metadata are retained by the authors. Historical evidence retrieval and structuring code, context assembly code, generation API orchestration, human-curation tools, and evaluation code are outside this release. The supplement is not a complete end-to-end reconstruction pipeline for the final curated dataset.
 
